@@ -6,6 +6,8 @@ Thor:
   - Thor
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
+Guardians of the Galaxy:
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
 Marvel Universe:
   - ^Iron Man$
   - Iron Man 2
@@ -19,7 +21,7 @@ Marvel Universe:
   - Spiderman.*?Homecoming
   - Spider-Man.+?Homecoming
   - Doctor Strange
-  - Guardians of the Galaxy
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
   - ^Deadpool$
 Alien:
   - ^Alien$
