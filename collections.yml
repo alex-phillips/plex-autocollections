@@ -107,3 +107,7 @@ Three Flavours Cornetto Trilogy:
   - ^Shaun of the Dead$
   - ^Hot Fuzz$
   - ^The World.?s End$
+The Lord of the Rings:
+  - ^The Lord of The Rings.+?The Fellowship of the Ring$
+  - ^The Lord of The Rings.+?The Two Towers$
+  - ^The Lord of The Rings.+?The Return of the King$
