@@ -1,17 +1,13 @@
 Iron Man:
-  - Iron Man
-  - Iron Man 2
-  - Iron Man 3
+  - ^Iron Man( [0-3])?$
 Thor:
-  - Thor
+  - ^Thor$
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
 Guardians of the Galaxy:
   - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
 Marvel Universe:
-  - ^Iron Man$
-  - Iron Man 2
-  - Iron Man 3
+  - ^Iron Man( [0-3])?$
   - ^Thor$
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
@@ -31,7 +27,7 @@ Alien:
   - ^Prometheus
   - ^Alien.*?Convenant
 Harry Potter:
-  - Harry Potter and the (Sorcerer's|Philosopher's) Stone
+  - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
   - Harry Potter and the Chamber of Secrets
   - Harry Potter and the Prisoner of Azkaban
   - Harry Potter and the Goblet of Fire
@@ -39,14 +35,14 @@ Harry Potter:
   - Harry Potter and the Half.*?Blood Prince
   - Harry Potter and the Deathly Hallows
 Star Wars:
-  - ^Star Wars(.*?A New Hope|.*?Episode (?:4|IV))?$
-  - ^Star Wars.*?Empire Strikes Back
-  - ^Star Wars.*?Return of the Jedi
+  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
+  - ^(Star Wars.+?)?The Empire Strikes Back
+  - ^(Star Wars.+?)?Return of the Jedi
   - ^Star Wars.*?Phantom Menace
   - ^Star Wars.*?Attack of the Clones
   - ^Star Wars.*?Revenge of the Sith
   - ^Star Wars.*?Force Awakens
-  - ^Star Wars.*?Rogue One
+  - ^(Star Wars.*?)?Rogue One$
   - ^Star Wars.*?The Last Jedi
 Indiana Jones:
   - Raiders of the Lost Ark
@@ -82,20 +78,15 @@ James Bond:
   - Skyfall
   - Spectre
 American Pie:
-  - American Pie
-  - American Pie 2
+  - ^American Pie( 2)?$
   - American Reunion
   - American Wedding
 Cars:
-  - Cars
-  - Cars 2
-  - Cars 3
+  - ^Cars(\s\d)?$
 John Wick:
-  - John Wick
-  - John Wick.+?Chapter 2
+  - John Wick(.+?Chapter 2)?
 Now You See Me:
-  - Now You See Me 1
-  - Now You See Me 2
+  - Now You See Me( 2)?
 Kingsman:
   - Kingsman.+? The Golden Circle
   - Kingsman.+? The Secret Service
