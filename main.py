@@ -1,10 +1,4 @@
-# Austin Hasten
-# Initial Commit - November 16th, 2017
-# TODO Allow selection of multiple sections
-# TODO Allow multiple keywords
-# TODO Cache series
-
-import re, sys, time, getpass, logging
+import re, sys, getpass
 import plexapi.utils
 from retry import retry
 from plexapi.myplex import MyPlexAccount
