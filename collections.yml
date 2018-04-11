@@ -17,7 +17,7 @@ Marvel Universe:
   - Captain America.*?Civil War
   - ^Ant.*?man
   - Spiderman.*?Homecoming
-  - 'Spider-Man: Homecoming'
+  - Spider-Man.+?Homecoming
   - Doctor Strange
   - Guardians of the Galaxy
   - ^Deadpool$
@@ -90,13 +90,13 @@ Cars:
   - Cars 3
 John Wick:
   - John Wick
-  - 'John Wick: Chapter 2'
+  - John Wick.+?Chapter 2
 Now You See Me:
   - Now You See Me 1
   - Now You See Me 2
 Kingsman:
-  - 'Kingsman: The Golden Circle'
-  - 'Kingsman: The Secret Service'
+  - Kingsman.+? The Golden Circle
+  - Kingsman.+? The Secret Service
 Planet of the Apes:
   - Rise of the Planet of the Apes
   - Dawn of the Planet of the Apes
