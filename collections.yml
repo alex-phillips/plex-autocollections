@@ -6,6 +6,8 @@ Thor:
   - Thor
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
+Guardians of the Galaxy:
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
 Marvel Universe:
   - ^Iron Man$
   - Iron Man 2
@@ -19,7 +21,7 @@ Marvel Universe:
   - Spiderman.*?Homecoming
   - Spider-Man.+?Homecoming
   - Doctor Strange
-  - Guardians of the Galaxy
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
   - ^Deadpool$
 Alien:
   - ^Alien$
@@ -101,3 +103,16 @@ Planet of the Apes:
   - Rise of the Planet of the Apes
   - Dawn of the Planet of the Apes
   - War for the Planet of the Apes
+Three Flavours Cornetto Trilogy:
+  - ^Shaun of the Dead$
+  - ^Hot Fuzz$
+  - ^The World.?s End$
+The Lord of the Rings:
+  - ^The Lord of The Rings.+?The Fellowship of the Ring$
+  - ^The Lord of The Rings.+?The Two Towers$
+  - ^The Lord of The Rings.+?The Return of the King$
+Back to the Future:
+  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
+Rocky:
+  - ^Rocky(( I{0,3}V?)| Balboa)?$
+  - ^Creed( II)?$
