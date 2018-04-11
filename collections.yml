@@ -1,23 +1,23 @@
-Iron Man:
+Iron Man: &iron_man
   - ^Iron Man( [0-3])?$
-Thor:
+Thor: &thor
   - ^Thor$
   - Thor.*?The Dark World
   - Thor.*?Ragnarok
-Guardians of the Galaxy:
+Guardians of the Galaxy: &guardians_of_the_galaxy
   - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+Captain America: &captain_america
+  - Captain America(.+?The First Avenger)?
+  - Captain America.+?Winter Soldier
+  - Captain America.+?Civil War
 Marvel Universe:
-  - ^Iron Man( [0-3])?$
-  - ^Thor$
-  - Thor.*?The Dark World
-  - Thor.*?Ragnarok
-  - Captain America.*?The First Avenger
-  - Captain America.*?Civil War
+  - *iron_man
+  - *thor
+  - *guardians_of_the_galaxy
+  - *captain_america
   - ^Ant.*?man
-  - Spiderman.*?Homecoming
-  - Spider-Man.+?Homecoming
-  - Doctor Strange
-  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+  - ^Spider.*?man.+?Homecoming$
+  - ^Doctor Strange$
   - ^Deadpool$
 Alien:
   - ^Alien$

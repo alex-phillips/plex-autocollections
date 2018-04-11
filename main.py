@@ -51,6 +51,20 @@ class Plex():
                 episodes += show.episodes()
             return episodes
 
+def process_movies(movies, medium, collection):
+    matches = []
+    for movie in movies:
+        if isinstance(movie, list):
+            process_movies(movie, medium, collection)
+        else:
+            regex = re.compile(movie, re.IGNORECASE)
+            if re.search(regex, medium.title):
+                print("Adding", medium.title, "to collection", collection)
+                matches.append(medium)
+    if matches:
+        for movie in matches:
+            movie.addCollection(collection)
+
 with (open("collections.yml", "r")) as stream:
     collections = yaml.load(stream)
 
@@ -60,12 +74,4 @@ if __name__ == "__main__":
 
     for medium in plex.media:
         for collection, movies in collections.items():
-            matches = []
-            for movie in movies:
-                regex = re.compile(movie, re.IGNORECASE)
-                if re.search(regex, medium.title):
-                    print("Adding", medium.title, "to collection", collection)
-                    matches.append(medium)
-            if matches:
-                for movie in matches:
-                    movie.addCollection(collection)
+            process_movies(movies, medium, collection)
