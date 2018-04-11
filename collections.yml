@@ -113,3 +113,6 @@ The Lord of the Rings:
   - ^The Lord of The Rings.+?The Return of the King$
 Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
+Rocky:
+  - ^Rocky(( I{0,3}V?)| Balboa)?$
+  - ^Creed( II)?$
