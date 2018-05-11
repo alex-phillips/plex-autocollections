@@ -10,15 +10,24 @@ Captain America: &captain_america
   - Captain America(.+?The First Avenger)?
   - Captain America.+?Winter Soldier
   - Captain America.+?Civil War
+Ant-Man: &antman
+  - Ant-Man
+  - Ant-Man and the Wasp
 Marvel Universe:
+  - The Incredible Hulk
   - *iron_man
   - *thor
   - *guardians_of_the_galaxy
   - *captain_america
-  - ^Ant.*?man
   - ^Spider.*?man.+?Homecoming$
   - ^Doctor Strange$
   - ^Deadpool$
+  - The Avengers
+  - Avengers+?Age of Ultron
+  - Doctor Strange
+  - Black Panther
+  - Avengers.+?Infinity War
+  - *antman
 Alien:
   - ^Alien$
   - ^Aliens$
