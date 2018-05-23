@@ -116,3 +116,36 @@ Back to the Future:
 Rocky:
   - ^Rocky(( I{0,3}V?)| Balboa)?$
   - ^Creed( II)?$
+Before...:
+  - Before Sunrise
+  - Before Sunset
+  - Before Midnight
+Alice in Wonderland:
+  - Alice in Wonderland
+  - Alice Through the Looking Glass
+Annabelle:
+  - Annabelle
+The Conjuring:
+  - The Conjuring
+Child's Play:
+  - ^Child's Play( [0-3])?$
+  - Bride of Chucky
+  - Seed of Chucky
+  - Curse of Chucky
+  - Cult of Chucky
+Fantastic Beasts:
+  - Fantastic Beasts and Where to Find Them
+  - Fantastic Beasts.+?The Crimes of Grindelwald
+Independence Day:
+  - Independence Day
+Pacific Rim:
+  - Pacific Rim
+Resident Evil:
+  - Resident Evil
+The Fast and the Furious:
+  - The Fast and the Furious
+  - 2 Fast 2 Furious
+  - Fast & Furious
+  - Fast Five
+  - Furious 7
+  - The Fate of the Furious
