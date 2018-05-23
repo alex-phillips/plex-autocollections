@@ -57,6 +57,7 @@ Indiana Jones:
   - Raiders of the Lost Ark
   - Temple of Doom
   - The Last Crusade
+  - Kingdom of the Crystal Skull
 The Dark Knight:
   - Batman Begins
   - The Dark Knight(\sRises)?
@@ -116,3 +117,21 @@ Back to the Future:
 Rocky:
   - ^Rocky(( I{0,3}V?)| Balboa)?$
   - ^Creed( II)?$
+Final Destination:
+  - Final Destination
+John Mulaney:
+  - John Mulaney
+Bo Burnham:
+  - Bo Burnham
+Oceans Trilogy:
+  - Ocean's Eleven
+  - Ocean's Twelve
+  - Ocean's Thirteen
+Scary Movie:
+  - Scary Movie
+The Santa Clause:
+  - The Santa Clause
+Die Hard:
+  - Die Hard
+Bridget Jones:
+  - Bridget Jones
