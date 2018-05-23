@@ -135,3 +135,62 @@ Die Hard:
   - Die Hard
 Bridget Jones:
   - Bridget Jones
+Before...:
+  - Before Sunrise
+  - Before Sunset
+  - Before Midnight
+Alice in Wonderland:
+  - Alice in Wonderland
+  - Alice Through the Looking Glass
+Annabelle:
+  - Annabelle
+The Conjuring:
+  - The Conjuring
+Child's Play:
+  - ^Child's Play( [0-3])?$
+  - Bride of Chucky
+  - Seed of Chucky
+  - Curse of Chucky
+  - Cult of Chucky
+Fantastic Beasts:
+  - Fantastic Beasts and Where to Find Them
+  - Fantastic Beasts.+?The Crimes of Grindelwald
+Independence Day:
+  - Independence Day
+Pacific Rim:
+  - Pacific Rim
+Resident Evil:
+  - Resident Evil
+The Fast and the Furious:
+  - The Fast and the Furious
+  - 2 Fast 2 Furious
+  - Fast & Furious
+  - Fast Five
+  - Furious 7
+  - The Fate of the Furious
+The Amityville Collection:
+  - The Amityville Horror
+  - Amityville II.+?The Possession
+  - Amityville 3-D
+  - Amityville.+?The Evil Escapes
+  - The Amityville Curse
+  - Amityville 1992.+?It's About Time
+  - Amityville.+?A New Generation
+  - Amityville.+?Dollhouse
+  - The Amityville Haunting
+  - The Amityville Asylum
+  - Amityville Death House
+  - The Amityville Playhouse
+  - Amityville.+?Vanishing Point
+  - The Amityville Terror
+  - The Amityville Legacy
+  - Amityville.+?No Escape
+  - Amityville Exorcism
+  - Amityville.+?The Awakening
+The Exorcist:
+  - The Exorcist
+  - ^Exorcist.+?The Beginning$
+  - Dominion.+?Prequel to the Exorcist
+  - ^Legion$
+Pirates of the Caribbean:
+  - Pirates of the Caribbean

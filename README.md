@@ -6,7 +6,7 @@ This script was originally based off of an inspired by [this script](https://git
 **DISCLAIMER** although I'm a software developer, I have done very little python (this is my first real program). So please forgive the crudeness of some of my code or methods. PRs welcome!
 
 ## Installation
-Simply use pip to install the requirements and run the software with python.
+Simply use pip to install the requirements and run the software with python 3.
 
 ```python
 pip install -r requirements.txt
