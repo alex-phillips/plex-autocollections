@@ -51,10 +51,20 @@ def process_movies(movies, medium, collection):
         if isinstance(movie, list):
             process_movies(movie, medium, collection)
         else:
+            year_regex = None
+            for match in re.findall(r"\{\{((?:\d+\|?)+)\}\}", movie):
+                year_regex = match
+                movie = re.sub(r"\{\{((\d+\|?)+)\}\}", r"\(\1\)", movie)
+
             regex = re.compile(movie, re.IGNORECASE)
             if re.search(regex, medium.title):
-                print("Adding", medium.title, "to collection", collection)
-                matches.append(medium)
+                if year_regex and re.search(year_regex, medium.year):
+                    print("Adding", medium.title, "to collection", collection)
+                    matches.append(medium)
+                elif year_regex is None:
+                    print("Adding", medium.title, "to collection", collection)
+                    matches.append(medium)
+
     if matches:
         for movie in matches:
             movie.addCollection(collection)
