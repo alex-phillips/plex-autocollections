@@ -1,3 +1,4 @@
+#!/usr/bin/env python
 import re, sys, getpass
 import plexapi.utils
 from retry import retry
