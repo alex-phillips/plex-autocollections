@@ -4,6 +4,7 @@ from retry import retry
 from plexapi.myplex import MyPlexAccount
 from plexapi.exceptions import BadRequest
 import yaml
+import config
 
 class Plex():
     def __init__(self):
@@ -14,8 +15,12 @@ class Plex():
 
     @retry(BadRequest)
     def get_account(self):
-        username = input("Plex Username: ")
-        password = getpass.getpass()
+        if config.environment == 'dev':
+            username = config.username
+            password = config.password
+        else:
+            username = input("Plex Username: ")
+            password = getpass.getpass()
 
         return MyPlexAccount(username, password)
 
