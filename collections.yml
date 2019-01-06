@@ -196,5 +196,33 @@ Pirates of the Caribbean:
   - Pirates of the Caribbean
 Hangover:
   - The Hangover
-Bad Santa:
+Home Alone: &home_alone
+  - Home Alone(.+?Lost in New York)?
+Bad Santa: &bad_santa
   - Bad Santa( 2)?
+Christmas:
+  - ^Die Hard$
+  - *bad_santa
+  - *home_alone
+  - White Christmas
+  - Christmas Vacation
+  - A Very Murray Christmas
+  - Office Christmas Party
+  - The Santa Clause
+  - Love Actually
+  - Krampus
+  - The Christmas Chronicles
+  - A Charlie Brown Christmas
+  - The Nightmare Before Christmas
+  - Batman Returns
+  - The Family Stone
+  - The Ref
+  - How The Grinch Stole Christmas
+  - It.?s A Sponge.?Bob Christmas
+  - It.?s A Wonderful Life
+  - Where the .+? is Santa
+  - Muppet Christmas Carol
+  - Rudolph.? The Red.?Nosed Reindeer
+  - Scrooged
+  - A Very Harold (and|&) Kumar Christmas
+  - Claymation Christmas
