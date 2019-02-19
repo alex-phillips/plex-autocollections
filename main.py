@@ -1,14 +1,20 @@
 import re, sys, getpass
 import plexapi.utils
 from retry import retry
+from plexapi.server import PlexServer, CONFIG
 from plexapi.myplex import MyPlexAccount
 from plexapi.exceptions import BadRequest
 import yaml
 
+## Edit ##
+PLEX_URL = ''
+PLEX_TOKEN = ''
+PLEX_URL = CONFIG.data['auth'].get('server_baseurl', PLEX_URL)
+PLEX_TOKEN = CONFIG.data['auth'].get('server_token', PLEX_TOKEN)
+
 class Plex():
     def __init__(self):
-        self.account = self.get_account()
-        self.server = self.get_account_server(self.account)
+        self.server = PlexServer(PLEX_URL, PLEX_TOKEN)
         self.section = self.get_server_section(self.server)
         self.media = self.get_flat_media(self.section)
 
@@ -54,11 +60,11 @@ def process_movies(movies, medium, collection):
             year_regex = None
             for match in re.findall(r"\{\{((?:\d+\|?)+)\}\}", movie):
                 year_regex = match
-                movie = re.sub(r"\s+\{\{((\d+\|?)+)\}\}", r"\(\1\)", movie)
+                movie = re.sub(r"\s+\{\{((\d+\|?)+)\}\}", "", movie)
 
             regex = re.compile(movie, re.IGNORECASE)
             if re.search(regex, medium.title):
-                if year_regex and re.search(year_regex, medium.year):
+                if year_regex and re.search(year_regex, str(medium.year)):
                     print("Adding", medium.title, "to collection", collection)
                     matches.append(medium)
                 elif year_regex is None:
