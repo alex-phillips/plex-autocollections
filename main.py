@@ -9,12 +9,21 @@ import yaml
 ## Edit ##
 PLEX_URL = ''
 PLEX_TOKEN = ''
-PLEX_URL = CONFIG.data['auth'].get('server_baseurl', PLEX_URL)
-PLEX_TOKEN = CONFIG.data['auth'].get('server_token', PLEX_TOKEN)
+
+try:
+    PLEX_URL = CONFIG.data['auth'].get('server_baseurl', PLEX_URL)
+    PLEX_TOKEN = CONFIG.data['auth'].get('server_token', PLEX_TOKEN)
+except:
+    print("Failed loading in config file.")
 
 class Plex():
     def __init__(self):
-        self.server = PlexServer(PLEX_URL, PLEX_TOKEN)
+        if PLEX_URL and PLEX_TOKEN:
+            self.server = PlexServer(PLEX_URL, PLEX_TOKEN)
+        else:
+            self.account = self.get_account()
+            self.server = self.get_account_server(self.account)
+
         self.section = self.get_server_section(self.server)
         self.media = self.get_flat_media(self.section)
 
