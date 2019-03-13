@@ -123,10 +123,11 @@ John Mulaney:
   - John Mulaney
 Bo Burnham:
   - Bo Burnham
-Oceans Trilogy:
+Oceans Series:
   - Ocean's Eleven
   - Ocean's Twelve
   - Ocean's Thirteen
+  - Ocean's Eight
 Scary Movie:
   - Scary Movie
 The Santa Clause:
@@ -168,6 +169,7 @@ The Fast and the Furious:
   - Fast Five
   - Furious 7
   - The Fate of the Furious
+  - The Fast And The Furious.+?Tokyo Drift
 The Amityville Collection:
   - The Amityville Horror
   - Amityville II.+?The Possession
@@ -201,30 +203,67 @@ Home Alone: &home_alone
 Bad Santa: &bad_santa
   - Bad Santa( 2)?
 Christmas:
-  - ^Die Hard$
   - *bad_santa
   - *home_alone
-  - White Christmas
-  - Christmas Vacation
-  - A Very Murray Christmas
-  - Office Christmas Party
-  - The Santa Clause
-  - Love Actually
-  - Krampus
-  - The Christmas Chronicles
+  - A Bad Moms Christmas
   - A Charlie Brown Christmas
-  - The Nightmare Before Christmas
+  - A Christmas Carol
+  - A Christmas Story
+  - A Very Harold (and|&) Kumar Christmas
+  - A Very Murray Christmas
   - Batman Returns
-  - The Family Stone
-  - The Ref
+  - Black Christmas
+  - Christmas Vacation
+  - Claymation Christmas
+  - Elf
+  - Four Christmases
+  - Frozen
   - How The Grinch Stole Christmas
   - It.?s A Sponge.?Bob Christmas
   - It.?s A Wonderful Life
-  - Where the .+? is Santa
+  - Jingle All the Way
+  - Krampus
+  - Love Actually
+  - Miracle on 34th Street
   - Muppet Christmas Carol
+  - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
-  - A Very Harold (and|&) Kumar Christmas
-  - Claymation Christmas
+  - Tangerine
+  - The Christmas Chronicles
+  - The Christmas Chronicles
+  - The Family Stone
+  - The Grinch
+  - The Holiday
+  - The Nightmare Before Christmas
+  - The Polar Express
+  - The Ref
+  - The Santa Clause
+  - The Sound of Music
+  - Trading Places
+  - Where the .+? is Santa
+  - White Christmas
+  - ^Die Hard$
 The Expendables:
   - ^The Expendables( [0-3])?$
+Toy Story:
+  - ^Toy Story( [0-3])?$
+Transformers:
+  - Transformers
+  - Transformers.+?Revenge of the Fallen
+  - Transformers.+?Dark of the Moon
+  - Transformers.+?Age of Extinction
+  - Transformers.+?The Last Knight
+  - Bumblebee
+The Hunger Games:
+  - The Hunger Games
+X-Men:
+  - X-Men
+  - X2
+  - X-Men.+?Apocalypse
+  - X-Men.+?Days of Future Past
+  - X-Men.+?First Class
+  - X-Men.+?The Last Stand
+  - X-Men.+?Days of Future Past
+Pitch Perfect:
+  - ^Pitch Perfect( [0-3])?$
