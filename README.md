@@ -28,5 +28,9 @@ Example:
 
 If you want to customize collection names or the names of movies found in your library, simply edit or replace the included `collections.yml` file.
 
+## Posters
+
+A great resource for posters can be found in this [reddit thread](https://www.reddit.com/r/PlexPosters/comments/8vny7j/an_index_of_utheo00s_473_collections_posters/).
+
 ## Contributing
 I wrote this with the hope that the community would help expand and include more collections and help make any corrections in better matching movies in various libraries. Pull requests are very much welcome!
