@@ -226,3 +226,7 @@ Christmas:
   - Scrooged
   - A Very Harold (and|&) Kumar Christmas
   - Claymation Christmas
+Divergent:
+  - ^Divergent$
+  - ^(The Divergent Series.*?)?Insurgent$
+  - ^(The Divergent Series.*?)?Allegiant$
