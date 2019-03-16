@@ -86,7 +86,7 @@ def process_movies(movies, medium, collection):
             movie.addCollection(collection)
 
 with (open("collections.yml", "r")) as stream:
-    collections = yaml.load(stream)
+    collections = yaml.load(stream, Loader=yaml.SafeLoader)
 
 if __name__ == "__main__":
     plex = Plex()
