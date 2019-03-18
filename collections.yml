@@ -242,6 +242,8 @@ Christmas:
   - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
+  - A Very Harold (and|&) Kumar Christmas
+  - Claymation Christmas
   - Tangerine
   - The Christmas Chronicles
   - The Christmas Chronicles
@@ -317,3 +319,7 @@ Saw:
   - Saw VI
   - Saw.+?The Final Chapter
   - Jigsaw
+Divergent:
+  - ^Divergent$
+  - ^(The Divergent Series.*?)?Insurgent$
+  - ^(The Divergent Series.*?)?Allegiant$
