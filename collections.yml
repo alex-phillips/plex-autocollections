@@ -53,6 +53,7 @@ Star Wars:
   - ^Star Wars.*?Force Awakens
   - ^(Star Wars.*?)?Rogue One$
   - ^Star Wars.*?The Last Jedi
+  - ^Solo.+?A Star Wars Story$
 Indiana Jones:
   - Raiders of the Lost Ark
   - Temple of Doom
@@ -95,6 +96,7 @@ Cars:
   - ^Cars(\s\d)?$
 John Wick:
   - John Wick(.+?Chapter 2)?
+  - John Wick(.+?Chapter 3)?
 Now You See Me:
   - Now You See Me( 2)?
 Kingsman:
@@ -108,10 +110,21 @@ Three Flavours Cornetto Trilogy:
   - ^Shaun of the Dead$
   - ^Hot Fuzz$
   - ^The World.?s End$
+Tolkien:
+  - ^The Lord of The Rings.+?The Fellowship of the Ring$
+  - ^The Lord of The Rings.+?The Two Towers$
+  - ^The Lord of The Rings.+?The Return of the King$
+  - ^The Hobbit.+?An Unexpected Journey$
+  - ^The Hobbit.+?The Desolation Of Smaug
+  - ^The Hobbit.+?The Battle Of The Five Armies$
 The Lord of the Rings:
   - ^The Lord of The Rings.+?The Fellowship of the Ring$
   - ^The Lord of The Rings.+?The Two Towers$
   - ^The Lord of The Rings.+?The Return of the King$
+The Hobbit:
+  - ^The Hobbit.+?An Unexpected Journey$
+  - ^The Hobbit.+?The Desolation Of Smaug
+  - ^The Hobbit.+?The Battle Of The Five Armies$
 Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
 Rocky:
@@ -123,14 +136,13 @@ John Mulaney:
   - John Mulaney
 Bo Burnham:
   - Bo Burnham
-Oceans Trilogy:
+Oceans Series:
   - Ocean's Eleven
   - Ocean's Twelve
   - Ocean's Thirteen
+  - Ocean's Eight
 Scary Movie:
   - Scary Movie
-The Santa Clause:
-  - The Santa Clause
 Die Hard:
   - Die Hard
 Bridget Jones:
@@ -168,6 +180,7 @@ The Fast and the Furious:
   - Fast Five
   - Furious 7
   - The Fate of the Furious
+  - The Fast And The Furious.+?Tokyo Drift
 The Amityville Collection:
   - The Amityville Horror
   - Amityville II.+?The Possession
@@ -201,31 +214,111 @@ Home Alone: &home_alone
 Bad Santa: &bad_santa
   - Bad Santa( 2)?
 Christmas:
-  - ^Die Hard$
   - *bad_santa
   - *home_alone
-  - White Christmas
-  - Christmas Vacation
-  - A Very Murray Christmas
-  - Office Christmas Party
-  - The Santa Clause
-  - Love Actually
-  - Krampus
-  - The Christmas Chronicles
+  - A Bad Moms Christmas
   - A Charlie Brown Christmas
-  - The Nightmare Before Christmas
+  - A Christmas Carol
+  - A Christmas Story
+  - A Very Harold (and|&) Kumar Christmas
+  - A Very Murray Christmas
   - Batman Returns
-  - The Family Stone
-  - The Ref
+  - Black Christmas
+  - Christmas Vacation
+  - Claymation Christmas
+  - Elf
+  - Four Christmases
+  - Frozen
+  - Home Alone
+  - Home Alone(.+?Lost in New York)?
   - How The Grinch Stole Christmas
   - It.?s A Sponge.?Bob Christmas
   - It.?s A Wonderful Life
-  - Where the .+? is Santa
+  - Jingle All the Way
+  - Krampus
+  - Love Actually
+  - Miracle on 34th Street
   - Muppet Christmas Carol
+  - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
   - A Very Harold (and|&) Kumar Christmas
   - Claymation Christmas
+  - Tangerine
+  - The Christmas Chronicles
+  - The Christmas Chronicles
+  - The Family Stone
+  - The Grinch
+  - The Holiday
+  - The Nightmare Before Christmas
+  - The Polar Express
+  - The Ref
+  - The Santa Clause
+  - The Sound of Music
+  - Trading Places
+  - Where the .+? is Santa
+  - White Christmas
+  - ^Die Hard$
+The Expendables:
+  - ^The Expendables( [0-3])?$
+Toy Story:
+  - ^Toy Story( [0-3])?$
+Transformers:
+  - Transformers
+  - Transformers.+?Revenge of the Fallen
+  - Transformers.+?Dark of the Moon
+  - Transformers.+?Age of Extinction
+  - Transformers.+?The Last Knight
+  - Bumblebee
+The Hunger Games:
+  - The Hunger Games
+X-Men:
+  - X-Men
+  - X2
+  - X-Men.+?Apocalypse
+  - X-Men.+?Days of Future Past
+  - X-Men.+?First Class
+  - X-Men.+?The Last Stand
+  - X-Men.+?Days of Future Past
+Pitch Perfect:
+  - ^Pitch Perfect( [0-3])?$
+Anchorman:
+  - Anchorman
+Despicable Me:
+  - Despicable Me( [0-3])?$
+The Incredibles:
+  - The Incredibles( [0-2])?$
+How to Train Your Dragon:
+  - How to Your Dragon( [0-3]?)$
+Jason Bourne:
+  - The Bourne Identity
+  - The Bourne Supremecy
+  - The Bourne Ultimatum
+  - The Bourne Legacy
+  - Jason Bourne
+Kick-Ass:
+  - Kick-Ass( [0-2])?$
+British Gangster:
+  - Lock, Stock and Two Smoking Barrels
+  - Snatch
+  - Layer Cake
+LEGO:
+  - The Lego Movie
+  - The Lego Movies 2
+  - The Lego Batman Movie
+Supertroopers:
+  - Supertroopers( [0-2])?$
+Trainspotting:
+  - Trainspotting( [0-2])?$
+Saw:
+  - ^Saw$
+  - Saw II
+  - Saw III
+  - Saw IV
+  - Saw V
+  - Saw VI
+  - Saw.+?The Final Chapter
+  - Jigsaw
 Divergent:
   - ^Divergent$
   - ^(The Divergent Series.*?)?Insurgent$
