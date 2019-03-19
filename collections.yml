@@ -289,7 +289,8 @@ LEGO:
 Super Troopers:
   - ^Super Troopers( 2)?$
 Trainspotting:
-  - Trainspotting( [0-2])?$
+  - ^Trainspotting$
+  - ^T2 Trainspotting$
 Saw:
   - ^Saw$
   - ^Saw (I{2,3}|IV|V|VI|[2-3])?$
