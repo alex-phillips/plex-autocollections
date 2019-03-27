@@ -13,12 +13,15 @@ Captain America: &captain_america
 Ant-Man: &antman
   - Ant-Man
   - Ant-Man and the Wasp
+Captain Marvel: &captain_marvel
+  - Captain Marvel
 Marvel Universe:
   - The Incredible Hulk
   - *iron_man
   - *thor
   - *guardians_of_the_galaxy
   - *captain_america
+  - *captain_marvel
   - ^Spider.*?man.+?Homecoming$
   - ^Doctor Strange$
   - ^Deadpool$
@@ -292,7 +295,7 @@ How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
 Jason Bourne:
   - The Bourne Identity
-  - The Bourne Supremecy
+  - The Bourne Supremacy
   - The Bourne Ultimatum
   - The Bourne Legacy
   - Jason Bourne
@@ -323,3 +326,11 @@ Divergent:
   - ^Divergent$
   - ^(The Divergent Series.*?)?Insurgent$
   - ^(The Divergent Series.*?)?Allegiant$
+The Matrix:
+  - The Matrix
+  - The Matrix Reloaded
+  - The Matrix Revolutions
+Star Trek (reboot):
+  - Star Trek
+  - Star Trek Into Darkness
+  - Star Trek Beyond
