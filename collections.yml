@@ -66,6 +66,9 @@ Die Hard:
 Divergent:
   - ^Divergent$
   - ^(The Divergent Series.*?)?(Insurgent|Allegiant)$
+Ernest: &ernest
+  - Ernest.+?(Goes to Camp|Saves Christmas|Scared Stupid|Goes to Jail|Rides Again|in the Army|Goes to Africa|Goes to School)
+  - SLam Dunk Ernest
 Fantastic Beasts:
   - Fantastic Beasts and Where to Find Them
   - Fantastic Beasts.+?The Crimes of Grindelwald
@@ -286,6 +289,7 @@ Christmas:
   - Christmas Vacation
   - Claymation Christmas
   - Elf
+  - Ernest Saves Christmas
   - Four Christmases
   - ^Frozen$
   - How The Grinch Stole Christmas
