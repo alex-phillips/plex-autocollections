@@ -2,6 +2,7 @@ Alice in Wonderland:
   - Alice in Wonderland {{2010}}
   - Alice Through the Looking Glass
 Alien:
+  - ^Alien³
   - ^Alien( 3)?$
   - ^Aliens$
   - ^Alien.*?(Resurrection|Convenant)$
