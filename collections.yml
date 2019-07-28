@@ -45,49 +45,6 @@ Cars:
 Child's Play:
   - ^Child.*?s Play( [0-3])?$
   - ^(Bride|Seed|Curse|Cult) of Chucky$
-Christmas:
-  - *bad_santa
-  - *home_alone
-  - A Bad Moms Christmas
-  - A Charlie Brown Christmas
-  - A Christmas Carol
-  - A Christmas Story
-  - A Very Harold (and|&) Kumar Christmas
-  - A Very Murray Christmas
-  - Batman Returns
-  - Black Christmas
-  - Christmas Vacation
-  - Claymation Christmas
-  - Elf
-  - Four Christmases
-  - ^Frozen$
-  - How The Grinch Stole Christmas
-  - It.?s A Sponge.?Bob Christmas
-  - It.?s A Wonderful Life
-  - Jingle All the Way
-  - Krampus
-  - Love Actually
-  - Miracle on 34th Street
-  - Muppet Christmas Carol
-  - Office Christmas Party
-  - Rudolph.? The Red.?Nosed Reindeer
-  - Scrooged
-  - A Very Harold (and|&) Kumar Christmas
-  - Claymation Christmas
-  - Tangerine
-  - The Christmas Chronicles
-  - The Family Stone
-  - The Grinch
-  - The Holiday
-  - The Nightmare Before Christmas
-  - The Polar Express
-  - The Ref
-  - The Santa Clause
-  - The Sound of Music
-  - Trading Places
-  - Where the .+? is Santa
-  - White Christmas
-  - ^Die Hard$
 DC Extended Universe:
   - ^Aquaman
   - ^Man of Steel
@@ -187,20 +144,6 @@ LEGO:
   - ^The Lego Movie$
   - The Lego Movie 2.+?The Second Part
   - The Lego Batman Movie
-Marvel Universe:
-  - The Incredible Hulk
-  - *iron_man
-  - *thor
-  - *guardians_of_the_galaxy
-  - *captain_america
-  - ^Spider.*?man.+?(Homecoming|Far From Home)$
-  - *captain_marvel
-  - ^Doctor Strange$
-  - *deadpool
-  - ^The Avengers$
-  - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
-  - Black Panther
-  - *antman
 Now You See Me:
   - Now You See Me( 2)?
 Oceans Series:
@@ -329,3 +272,60 @@ X-Men:
   - ^X-Men$
   - ^X2$
   - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
+Christmas:
+  - *bad_santa
+  - *home_alone
+  - A Bad Moms Christmas
+  - A Charlie Brown Christmas
+  - A Christmas Carol
+  - A Christmas Story
+  - A Very Harold (and|&) Kumar Christmas
+  - A Very Murray Christmas
+  - Batman Returns
+  - Black Christmas
+  - Christmas Vacation
+  - Claymation Christmas
+  - Elf
+  - Four Christmases
+  - ^Frozen$
+  - How The Grinch Stole Christmas
+  - It.?s A Sponge.?Bob Christmas
+  - It.?s A Wonderful Life
+  - Jingle All the Way
+  - Krampus
+  - Love Actually
+  - Miracle on 34th Street
+  - Muppet Christmas Carol
+  - Office Christmas Party
+  - Rudolph.? The Red.?Nosed Reindeer
+  - Scrooged
+  - A Very Harold (and|&) Kumar Christmas
+  - Claymation Christmas
+  - Tangerine
+  - The Christmas Chronicles
+  - The Family Stone
+  - The Grinch
+  - The Holiday
+  - The Nightmare Before Christmas
+  - The Polar Express
+  - The Ref
+  - The Santa Clause
+  - The Sound of Music
+  - Trading Places
+  - Where the .+? is Santa
+  - White Christmas
+  - ^Die Hard$
+Marvel Universe:
+  - The Incredible Hulk
+  - *iron_man
+  - *thor
+  - *guardians_of_the_galaxy
+  - *captain_america
+  - ^Spider.*?man.+?(Homecoming|Far From Home)$
+  - *captain_marvel
+  - ^Doctor Strange$
+  - *deadpool
+  - ^The Avengers$
+  - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
+  - Black Panther
+  - *antman
