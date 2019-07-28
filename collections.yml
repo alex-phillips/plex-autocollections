@@ -225,6 +225,9 @@ The Hunger Games:
   - ^The Hunger Games.+?Mockingjay(.+?Part [1-2])?$
 The Incredibles:
   - The Incredibles( [0-2])?$
+The Land Before Time
+  - ^The Land Before Time$
+  - ^The Land Before Time.*
 The Lord of the Rings: &lotr
   - ^The Lord of The Rings.+?(The Fellowship of the Ring|The Two Towers|The Return of the King)$
 The Matrix:
