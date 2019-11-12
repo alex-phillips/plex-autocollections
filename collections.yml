@@ -229,8 +229,6 @@ Christmas:
   - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
-  - A Very Harold (and|&) Kumar Christmas
-  - Claymation Christmas
   - Tangerine
   - The Christmas Chronicles
   - The Family Stone
@@ -318,3 +316,14 @@ Jurassic Park:
 Wreck-It Ralph:
   - ^Wreck-It Ralph
   - ^Ralph Breaks the Internet
+Underworld:
+  - ^Underworld$
+  - Underworld.+?Evolution
+  - Underworld.+?Rise of the Lycans
+  - Underworld.+?Awakening
+  - Underworld.+?Blood Wars
+Addams Family:
+  - ^The Addams Family$
+  - Addams Family (Values|Reunion)?$
+Atlas Shrugged:
+  - Atlas Shrugged Part (I|II|III)?
