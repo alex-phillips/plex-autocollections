@@ -19,6 +19,7 @@ Deadpool Collection: &deadpool
   - ^X-Force
 Captain Marvel: &captain_marvel
   - Captain Marvel
+
 Marvel Universe:
   - The Incredible Hulk
   - *iron_man
@@ -33,6 +34,7 @@ Marvel Universe:
   - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
   - Black Panther
   - *antman
+  
 Alien:
   - ^Alien( 3)?$
   - ^Aliens$
@@ -173,6 +175,7 @@ The Fast and the Furious:
   - Furious 7
   - The Fate of the Furious
   - The Fast And The Furious.+?Tokyo Drift
+  - Fast & Furious Presents.+?Hobbs & Shaw
 The Amityville:
   - The Amityville Horror
   - Amityville II.+?The Possession
@@ -232,8 +235,6 @@ Christmas:
   - Office Christmas Party
   - Rudolph.? The Red.?Nosed Reindeer
   - Scrooged
-  - A Very Harold (and|&) Kumar Christmas
-  - Claymation Christmas
   - Tangerine
   - The Christmas Chronicles
   - The Family Stone
@@ -329,3 +330,15 @@ Star Trek:
   - Star Trek
   - Star Trek Into Darkness
   - Star Trek Beyond
+Underworld:
+  - ^Underworld$
+  - Underworld.+?Evolution
+  - Underworld.+?Rise of the Lycans
+  - Underworld.+?Awakening
+  - Underworld.+?Blood Wars
+Addams Family:
+  - ^The Addams Family$
+  - Addams Family (Values|Reunion)?$
+Atlas Shrugged:
+  - Atlas Shrugged Part (I|II|III)?
+
