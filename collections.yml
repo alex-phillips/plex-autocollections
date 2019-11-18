@@ -17,6 +17,9 @@ Deadpool Collection: &deadpool
   - ^Deadpool( [0-3])?$
   - ^Once Upon a Deadpool
   - ^X-Force
+Captain Marvel: &captain_marvel
+  - Captain Marvel
+
 Marvel Universe:
   - The Incredible Hulk
   - *iron_man
@@ -24,12 +27,14 @@ Marvel Universe:
   - *guardians_of_the_galaxy
   - *captain_america
   - ^Spider.*?man.+?(Homecoming|Far From Home)$
+  - *captain_marvel
   - ^Doctor Strange$
   - *deadpool
   - ^The Avengers$
   - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
   - Black Panther
   - *antman
+  
 Alien:
   - ^Alien( 3)?$
   - ^Aliens$
@@ -170,6 +175,7 @@ The Fast and the Furious:
   - Furious 7
   - The Fate of the Furious
   - The Fast And The Furious.+?Tokyo Drift
+  - Fast & Furious Presents.+?Hobbs & Shaw
 The Amityville:
   - The Amityville Horror
   - Amityville II.+?The Possession
@@ -272,7 +278,7 @@ The Incredibles:
 How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
 Jason Bourne:
-  - The Bourne (Identity|Supremecy|Ultimatum|Legacy)
+  - The Bourne (Identity|Supremacy|Ultimatum|Legacy)
   - Jason Bourne
 Kick-Ass:
   - Kick-Ass( [0-2])?$
@@ -316,6 +322,14 @@ Jurassic Park:
 Wreck-It Ralph:
   - ^Wreck-It Ralph
   - ^Ralph Breaks the Internet
+The Matrix:
+  - The Matrix
+  - The Matrix Reloaded
+  - The Matrix Revolutions
+Star Trek:
+  - Star Trek
+  - Star Trek Into Darkness
+  - Star Trek Beyond
 Underworld:
   - ^Underworld$
   - Underworld.+?Evolution
@@ -327,3 +341,4 @@ Addams Family:
   - Addams Family (Values|Reunion)?$
 Atlas Shrugged:
   - Atlas Shrugged Part (I|II|III)?
+
