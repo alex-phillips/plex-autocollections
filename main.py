@@ -6,6 +6,13 @@ from plexapi.server import PlexServer, CONFIG
 from plexapi.myplex import MyPlexAccount
 from plexapi.exceptions import BadRequest
 import yaml
+import glob, os
+
+DEBUG = os.getenv('DEBUG')
+Default = '\033[0m'  # reset to default text color
+Red     = '\033[31m' # set text color to red
+Green   = '\033[32m' # set text color to green
+Blue    = '\033[34m' # set text color to blue
 
 ## Edit ##
 PLEX_URL = ''
@@ -75,10 +82,10 @@ def process_movies(movies, medium, collection):
             regex = re.compile(movie, re.IGNORECASE)
             if re.search(regex, medium.title):
                 if year_regex and re.search(year_regex, str(medium.year)):
-                    print("Adding", medium.title, "to collection", collection)
+                    print("Adding" + Red, medium.title, Default + "to collection" + Blue, collection, Default)
                     matches.append(medium)
                 elif year_regex is None:
-                    print("Adding", medium.title, "to collection", collection)
+                    print("Adding" + Red, medium.title, Default + "to collection" + Blue, collection, Default)
                     matches.append(medium)
 
     if matches:
@@ -87,6 +94,22 @@ def process_movies(movies, medium, collection):
 
 with (open("collections.yml", "r")) as stream:
     collections = yaml.load(stream, Loader=yaml.SafeLoader)
+    print()
+    print(Green + 'Reading collections.yml...' + Default)
+    if DEBUG:
+        for k, v in collections.items():
+            print(Blue, k, "->", v, Default)
+        print(Red, collections, Default)
+
+custom_collections = glob.glob('collections.d/*.yml')
+for custom_collection in custom_collections:
+    with (open(custom_collection, "r")) as stream:
+        collections.update(yaml.load(stream, Loader=yaml.SafeLoader))
+        print(Green + 'Reading ' + str(custom_collection) + '...' + Default)
+        if DEBUG:
+            for k, v in collections.items():
+                print(Blue, k, "->", v, Default)
+            print(Red, collections, Default)
 
 if __name__ == "__main__":
     plex = Plex()
