@@ -45,6 +45,19 @@ When determining whether to put a new collection in `collections.yml` or
   custom collection, and be _disabled_ by default (e.g.
   `my_collection.yml.disabled`).
 
+### Examples
+| Command                                                                         | Resulting action |
+| ------------------------------------------------------------------------------- | ---------------- |
+| `python main.py`                                                                | process `collections.yml` plus any custom collections named `collections.d/*.yml` |
+| `./main.py`                                                                     | same as above |
+| `DEBUG=1 ./main.py`                                                             | same as above & display debugging output |
+| `./main.py collections.yml`                                                     | process only `collections.yml` |
+| `./main.py collections.yml collections.d/my_collection.yml`                     | process `collections.yml` & the custom collection `collections.d/my_collection.yml` |
+| `./main.py collections.d/my_collection.yml collections.d/hallmark.yml.disabled` | process only the custom collections `collections.d/my_collection.yml` & `collections.d/hallmark.yml.disabled` |
+
+**NOTE: when supplying custom collection filenames via the command
+line, one may also include custom collections that have been _disabled_.**
+
 ## Posters
 
 A great resource for posters can be found in this [reddit thread](https://www.reddit.com/r/PlexPosters/comments/8vny7j/an_index_of_utheo00s_473_collections_posters/).
