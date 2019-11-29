@@ -28,6 +28,23 @@ Example:
 
 If you want to customize collection names or the names of movies found in your library, simply edit or replace the included `collections.yml` file.
 
+### Custom collections
+An alternate method to add additional collections is via the `collections.d`
+directory. Files contained within this directory, ending with the suffix `.yml`,
+will automatically be loaded/processed after `collections.yml`. The format of
+each `xxxxx.yml` file is identical to that of `collections.yml`. Additionally, one may
+disable any custom collection by simply renaming the file (e.g. `xxxxx.yml.disabled`).
+
+### Best practices
+When determining whether to put a new collection in `collections.yml` or
+`collections.d`, please keep the following best practices in mind:
+* Any collection _may_ reside in a custom collection.
+* A collection longer than about 10 lines in length _should_ be placed in its own
+  custom collection.
+* A collection longer than about 50 lines in length _should_ be placed in its own
+  custom collection, and be _disabled_ by default (e.g.
+  `my_collection.yml.disabled`).
+
 ## Posters
 
 A great resource for posters can be found in this [reddit thread](https://www.reddit.com/r/PlexPosters/comments/8vny7j/an_index_of_utheo00s_473_collections_posters/).
