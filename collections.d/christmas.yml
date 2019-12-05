@@ -15,7 +15,7 @@ Christmas:
   - Black Christmas
   - Christmas Vacation
   - Claymation Christmas
-  - Elf
+  - ^Elf$
   - Four Christmases
   - ^Frozen$
   - How The Grinch Stole Christmas
@@ -38,7 +38,6 @@ Christmas:
   - The Polar Express
   - The Ref
   - The Santa Clause
-  - The Sound of Music
   - Trading Places
   - Where the .+? is Santa
   - White Christmas
