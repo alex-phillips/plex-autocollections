@@ -192,7 +192,7 @@ Anchorman:
 Despicable Me:
   - Despicable Me( [0-3])?$
 The Incredibles:
-  - The Incredibles( [0-2])?$
+  - (The\s)?Incredibles( [0-2])?$
 How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
 Jason Bourne:
