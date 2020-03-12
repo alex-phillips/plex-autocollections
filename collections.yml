@@ -18,6 +18,7 @@ Star Wars:
   - ^(Star Wars.*?)?Rogue One$
   - ^Star Wars.*?The Last Jedi
   - ^Solo.+?A Star Wars Story$
+  - ^Star Wars.*?The Rise of Skywalker
 Indiana Jones:
   - Raiders of the Lost Ark
   - Temple of Doom
@@ -58,9 +59,9 @@ American Pie:
 Cars:
   - ^Cars(\s\d)?$
 John Wick:
-  - John Wick(.+?Chapter [2-3])?
+  - John Wick(.+?Chapter \d)?
 Now You See Me:
-  - Now You See Me( 2)?
+  - Now You See Me( \d)?
 Kingsman:
   - Kingsman.+?(The Golden Circle|The Secret Service)
 Planet of the Apes:
@@ -80,9 +81,9 @@ Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
 Rocky:
   - ^Rocky(( I{0,3}V?)| Balboa)?$
-  - ^Creed( II)?$
+  - ^Creed( I{1,3})?$
 Final Destination:
-  - ^Final Destination( [0-6])?$
+  - ^Final Destination( \d)?$
   - ^The Final Destination$
 John Mulaney:
   - John Mulaney.+?(The Comeback Kid|New in Town|Kid Gorgeous at Radio City)
@@ -91,9 +92,9 @@ Bo Burnham:
 Oceans Series:
   - Ocean.*?s (Eleven|Twelve|Thirteen|Eight)
 Scary Movie:
-  - ^Scary Movie( [0-5])?$
+  - ^Scary Movie( \d)?$
 Die Hard:
-  - ^Die Hard( [0-2])?$
+  - ^Die Hard( \d])?$
   - ^Die Hard.+?With a Vengeance
   - Live Free or Die Hard
   - A Good Day to Die Hard
@@ -106,17 +107,17 @@ Alice in Wonderland:
   - Alice in Wonderland {{2010}}
   - Alice Through the Looking Glass
 Annabelle: &annabelle
-  - ^Annabelle( [0-3])?$
+  - ^Annabelle( \d)?$
   - ^Annabelle.+?Creation
 The Conjuring: &the_conjuring
-  - ^The Conjuring( [0-3])?$
+  - ^The Conjuring( \d)?$
 The Conjuring Universe:
   - *annabelle
   - *the_conjuring
   - ^The Nun$
   - ^The Crooked Man$
 Child's Play:
-  - ^Child.*?s Play( [0-3])?$
+  - ^Child.*?s Play( \d)?$
   - ^(Bride|Seed|Curse|Cult) of Chucky$
 Fantastic Beasts:
   - Fantastic Beasts and Where to Find Them
@@ -166,11 +167,11 @@ The Exorcist:
 Pirates of the Caribbean:
   - ^Pirates of the Caribbean.+?(The Curse of the Black Pearl|Dead Man.*?s Chest|At World.*?s End|On Stranger Tides|Dead Men Tell No Tales)
 Hangover:
-  - ^The Hangover(.+?Part (I{2,3}|[2-3]))?$
+  - ^The Hangover(.+?Part (I{2,3}|\d))?$
 The Expendables:
-  - ^The Expendables( [0-3])?$
+  - ^The Expendables( \d)?$
 Toy Story:
-  - ^Toy Story( [0-3])?$
+  - ^Toy Story( \d)?$
 Transformers:
   - ^Transformers$
   - Transformers.+?(Revenge of the Fallen|Dark of the Moon|Age of Extinction|The Last Knight)
@@ -184,22 +185,22 @@ X-Men:
   - ^X2$
   - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
 Pitch Perfect:
-  - ^Pitch Perfect( [0-3])?$
+  - ^Pitch Perfect( \d)?$
 Anchorman:
   - Anchorman.+?The Legend of Ron Burgundy
   - Anchorman 2.+?The Legend Continues
   - Wake Up, Ron Burgundy.+?The Lost Movie
 Despicable Me:
-  - Despicable Me( [0-3])?$
+  - Despicable Me( \d)?$
 The Incredibles:
-  - (The\s)?Incredibles( [0-2])?$
+  - (The\s)?Incredibles( \d)?$
 How to Train Your Dragon:
-  - How to Your Dragon( [0-3]?)$
+  - How to Your Dragon( \d)?$
 Jason Bourne:
   - The Bourne (Identity|Supremacy|Ultimatum|Legacy)
   - Jason Bourne
 Kick-Ass:
-  - Kick-Ass( [0-2])?$
+  - Kick-Ass( \d)?$
 British Gangster:
   - Lock, Stock and Two Smoking Barrels
   - Snatch
@@ -258,4 +259,4 @@ Addams Family:
   - ^The Addams Family$
   - Addams Family (Values|Reunion)?$
 Atlas Shrugged:
-  - Atlas Shrugged Part (I|II|III)?
+  - Atlas Shrugged Part I{0,3}
