@@ -75,9 +75,9 @@ def process_movies(movies, medium, collection):
             process_movies(movie, medium, collection)
         else:
             year_regex = None
-            for match in re.findall(r"\{\{((?:\d+\|?)+)\}\}", movie):
-                year_regex = match
-                movie = re.sub(r"\s+\{\{((\d+\|?)+)\}\}", "", movie)
+            for match in re.findall(r"\{\{((?:\s?\d+\s?\|?)+)\}\}", movie):
+                year_regex = match.strip()
+                movie = re.sub(r"\s+\{\{((\s?\d+\s?\|?)+)\}\}", "", movie)
 
             regex = re.compile(movie, re.IGNORECASE)
             if re.search(regex, medium.title):
