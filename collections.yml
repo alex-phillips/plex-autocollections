@@ -1,12 +1,6 @@
 Alice in Wonderland:
   - Alice in Wonderland {{2010}}
   - Alice Through the Looking Glass
-Alien:
-  - ^Alien³
-  - ^Alien( 3)?$
-  - ^Aliens$
-  - ^Alien.*?(Resurrection|Convenant)$
-  - ^Prometheus
 American Pie:
   - ^American Pie( 2)?$
   - American (Reunion|Wedding)
@@ -22,8 +16,6 @@ Ant-Man: &antman
   - Ant-Man and the Wasp
 Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
-Bad Santa: &bad_santa
-  - Bad Santa( 2)?
 Before...:
   - ^Before (Sunrise|Sunset|Midnight)$
 Bo Burnham:
@@ -35,12 +27,6 @@ British Gangster:
   - Lock, Stock and Two Smoking Barrels
   - Snatch
   - Layer Cake
-Captain America: &captain_america
-  - Captain America(.+?The First Avenger)?
-  - Captain America.+?Winter Soldier
-  - Captain America.+?Civil War
-Captain Marvel: &captain_marvel
-  - Captain Marvel
 Cars:
   - ^Cars(\s\d)?$
 Child's Play:
@@ -53,10 +39,6 @@ DC Extended Universe:
   - ^Batman v Superman.+?Dawn of Justice
   - ^Justice League
   - ^Wonder Woman
-Deadpool Collection: &deadpool
-  - ^Deadpool( [0-3])?$
-  - ^Once Upon a Deadpool
-  - ^X-Force
 Despicable Me:
   - Despicable Me( [0-3])?$
 Die Hard:
@@ -79,8 +61,6 @@ Final Destination:
 Goosebumps:
   - ^Goosebumps$
   - ^Goosebumps 2.+?Haunted Halloween
-Guardians of the Galaxy: &guardians_of_the_galaxy
-  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
 Hangover:
   - ^The Hangover(.+?Part (I{2,3}|[2-3]))?$
 Happy Death Day:
@@ -89,8 +69,6 @@ Harry Potter Collection:
   - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
   - Harry Potter and the (Chamber of Secrets|Prisoner of Azkaban|Goblet of Fire|Order of the Phoenix|Half.*?Blood Prince)
   - Harry Potter and the Deathly Hallows(.+?Part ([1-2]))?$
-Home Alone: &home_alone
-  - Home Alone(.+?Lost in New York)?
 How to Train Your Dragon:
   - How to Your Dragon( [0-3]?)$
 Independence Day:
@@ -101,34 +79,6 @@ Indiana Jones:
   - Temple of Doom
   - The Last Crusade
   - Kingdom of the Crystal Skull
-Iron Man: &iron_man
-  - ^Iron Man( [0-3])?$
-James Bond:
-  - Dr\. No
-  - From Russia with Love
-  - Goldfinger
-  - Thunderball
-  - Casino Royale
-  - You Only Live Twice
-  - On Her Majesty's Secret Service
-  - Diamonds are Forever
-  - Live and Let Die
-  - The Man with the Golden Gun
-  - The Spy Who Loved Me
-  - Moonraker
-  - For Your Eyes Only
-  - Octopussy
-  - Never Say Never Again
-  - A View to a Kill
-  - The Living Daylights
-  - Licence to Kill
-  - GoldenEye
-  - Tomorrow Never Dies
-  - The World is Not Enough
-  - Die Another Day
-  - Quantum of Solace
-  - Skyfall
-  - Spectre
 Jason Bourne:
   - The Bourne (Identity|Supremacy|Ultimatum|Legacy)
   - Jason Bourne
@@ -234,10 +184,6 @@ The Matrix:
   - The Matrix
   - The Matrix Reloaded
   - The Matrix Revolutions
-Thor: &thor
-  - ^Thor$
-  - Thor.*?The Dark World
-  - Thor.*?Ragnarok
 Three Flavours Cornetto Trilogy:
   - ^Shaun of the Dead$
   - ^Hot Fuzz$
@@ -281,61 +227,3 @@ X-Men:
   - ^X-Men$
   - ^X2$
   - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
-Christmas:
-  - *bad_santa
-  - *home_alone
-  - A Bad Moms Christmas
-  - A Charlie Brown Christmas
-  - A Christmas Carol
-  - A Christmas Story
-  - A Very Harold (and|&) Kumar Christmas
-  - A Very Murray Christmas
-  - Batman Returns
-  - Black Christmas
-  - Christmas Vacation
-  - Claymation Christmas
-  - Elf
-  - Ernest Saves Christmas
-  - Four Christmases
-  - ^Frozen$
-  - How The Grinch Stole Christmas
-  - It.?s A Sponge.?Bob Christmas
-  - It.?s A Wonderful Life
-  - Jingle All the Way
-  - Krampus
-  - Love Actually
-  - Miracle on 34th Street
-  - Muppet Christmas Carol
-  - Office Christmas Party
-  - Rudolph.? The Red.?Nosed Reindeer
-  - Scrooged
-  - A Very Harold (and|&) Kumar Christmas
-  - Claymation Christmas
-  - Tangerine
-  - The Christmas Chronicles
-  - The Family Stone
-  - The Grinch
-  - The Holiday
-  - The Nightmare Before Christmas
-  - The Polar Express
-  - The Ref
-  - The Santa Clause
-  - The Sound of Music
-  - Trading Places
-  - Where the .+? is Santa
-  - White Christmas
-  - ^Die Hard$
-Marvel Universe:
-  - The Incredible Hulk
-  - *iron_man
-  - *thor
-  - *guardians_of_the_galaxy
-  - *captain_america
-  - ^Spider.*?man.+?(Homecoming|Far From Home)$
-  - *captain_marvel
-  - ^Doctor Strange$
-  - *deadpool
-  - ^The Avengers$
-  - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
-  - Black Panther
-  - *antman

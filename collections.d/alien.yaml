@@ -1,4 +1,5 @@
 Alien:
+  - ^Alien³
   - ^Alien( 3)?$
   - ^Aliens$
   - ^Alien.*?(Resurrection|Convenant)$
