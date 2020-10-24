@@ -51,6 +51,8 @@ When determining whether to put a new collection in `collections.yml` or
 | `python main.py`                                                                | process `collections.yml` plus any custom collections named `collections.d/*.yml` |
 | `./main.py`                                                                     | same as above |
 | `DEBUG=1 ./main.py`                                                             | same as above & display debugging output |
+| `./main.py --library 'Old Movies'`                                              | process above named collections without being prompted to select the library (useful within crontab) |
+| `./main.py --help                                                               | show 'help' |
 | `./main.py collections.yml`                                                     | process only `collections.yml` |
 | `./main.py collections.yml collections.d/my_collection.yml`                     | process `collections.yml` & the custom collection `collections.d/my_collection.yml` |
 | `./main.py collections.d/my_collection.yml collections.d/hallmark.yml.disabled` | process only the custom collections `collections.d/my_collection.yml` & `collections.d/hallmark.yml.disabled` |
