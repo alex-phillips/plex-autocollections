@@ -1,0 +1,45 @@
+Home Alone: &home_alone
+  - Home Alone(.+?Lost in New York)?
+Bad Santa: &bad_santa
+  - Bad Santa( 2)?
+Christmas:
+  - *bad_santa
+  - *home_alone
+  - A Bad Moms Christmas
+  - A Charlie Brown Christmas
+  - A Christmas Carol
+  - A Christmas Story
+  - A Very Harold (and|&) Kumar Christmas
+  - A Very Murray Christmas
+  - Batman Returns
+  - Black Christmas
+  - Christmas Vacation
+  - Claymation Christmas
+  - ^Elf$
+  - Four Christmases
+  - ^Frozen$
+  - How The Grinch Stole Christmas
+  - It.?s A Sponge.?Bob Christmas
+  - It.?s A Wonderful Life
+  - Jingle All the Way
+  - Krampus
+  - Love Actually
+  - Miracle on 34th Street
+  - Muppet Christmas Carol
+  - Office Christmas Party
+  - Rudolph.? The Red.?Nosed Reindeer
+  - Scrooged
+  - Tangerine
+  - The Christmas Chronicles
+  - The Family Stone
+  - The Grinch
+  - The Holiday
+  - The Nightmare Before Christmas
+  - The Polar Express
+  - The Ref
+  - The Santa Clause
+  - Trading Places
+  - Where the .+? is Santa
+  - White Christmas
+  - ^Die Hard$
+  - The Family Stone

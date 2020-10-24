@@ -1,0 +1,37 @@
+Ant-Man: &antman
+  - ^Ant-Man$
+  - Ant-Man and the Wasp
+Avengers: &avengers
+  - ^The Avengers$
+  - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
+Captain America: &captain_america
+  - Captain America(.+?The First Avenger)?
+  - Captain America.+?Winter Soldier
+  - Captain America.+?Civil War
+Captain Marvel: &captain_marvel
+  - Captain Marvel
+Deadpool Collection: &deadpool
+  - ^Deadpool( [0-3])?$
+  - ^Once Upon a Deadpool
+  - ^X-Force
+Guardians of the Galaxy: &guardians_of_the_galaxy
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+Iron Man: &iron_man
+  - ^Iron Man( [0-3])?$
+Thor: &thor
+  - ^Thor$
+  - Thor.*?The Dark World
+  - Thor.*?Ragnarok
+Marvel Universe:
+  - *antman
+  - *avengers
+  - *captain_america
+  - *captain_marvel
+  - *deadpool
+  - *guardians_of_the_galaxy
+  - *iron_man
+  - *thor
+  - Black Panther
+  - ^Doctor Strange$
+  - ^Spider.*?man.+?(Homecoming|Far From Home)$
+  - The Incredible Hulk
