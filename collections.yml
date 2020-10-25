@@ -11,9 +11,6 @@ Anchorman:
 Annabelle: &annabelle
   - ^Annabelle( [0-3])?$
   - ^Annabelle.+?Creation
-Ant-Man: &antman
-  - ^Ant-Man$
-  - Ant-Man and the Wasp
 Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
 Before...:
@@ -220,6 +217,9 @@ Star Wars:
   - ^(Star Wars.*?)?Rogue One$
   - ^Star Wars.*?The Last Jedi
   - ^Solo.+?A Star Wars Story$
+  - ^Star Wars.*?The Rise of Skywalker
+  - ^The Ewok Adventure
+  - ^Ewoks.*?Battle for Endor
 Wreck-It Ralph:
   - ^Wreck-It Ralph
   - ^Ralph Breaks the Internet
