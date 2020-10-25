@@ -30,14 +30,18 @@ Child's Play:
   - ^Child.*?s Play( [0-3])?$
   - ^(Bride|Seed|Curse|Cult) of Chucky$
 DC Extended Universe:
-  - ^Aquaman
+  - ^Aquaman( 2)?$
   - ^Man of Steel
   - ^Suicide Squad
   - ^Batman v Superman.+?Dawn of Justice
   - ^Justice League
-  - ^Wonder Woman
+  - ^Wonder Woman.*
+  - ^Birds of Prey
+  - ^The Flash
+  - ^Shazam.*
 Despicable Me:
-  - Despicable Me( [0-3])?$
+  - Despicable Me( [0-4])?$
+  - Minions(The rise of Gru)?$
 Die Hard:
   - ^Die Hard( [0-2])?$
   - ^Die Hard.+?With a Vengeance
