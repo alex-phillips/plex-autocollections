@@ -1,3 +1,6 @@
+Addams Family:
+  - ^The Addams Family$
+  - Addams Family (Values|Reunion)?$
 Alice in Wonderland:
   - Alice in Wonderland {{2010}}
   - Alice Through the Looking Glass
@@ -9,8 +12,10 @@ Anchorman:
   - Anchorman 2.+?The Legend Continues
   - Wake Up, Ron Burgundy.+?The Lost Movie
 Annabelle: &annabelle
-  - ^Annabelle( [0-3])?$
+  - ^Annabelle( \d)?$
   - ^Annabelle.+?Creation
+Atlas Shrugged:
+  - Atlas Shrugged Part I{0,3}
 Back to the Future:
   - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
 Before...:
@@ -27,10 +32,10 @@ British Gangster:
 Cars:
   - ^Cars(\s\d)?$
 Child's Play:
-  - ^Child.*?s Play( [0-3])?$
+  - ^Child.*?s Play( \d)?$
   - ^(Bride|Seed|Curse|Cult) of Chucky$
 DC Extended Universe:
-  - ^Aquaman( 2)?$
+  - ^Aquaman( \d)?$
   - ^Man of Steel
   - ^Suicide Squad
   - ^Batman v Superman.+?Dawn of Justice
@@ -40,10 +45,10 @@ DC Extended Universe:
   - ^The Flash
   - ^Shazam.*
 Despicable Me:
-  - Despicable Me( [0-4])?$
+  - Despicable Me( \d)?$
   - Minions(The rise of Gru)?$
 Die Hard:
-  - ^Die Hard( [0-2])?$
+  - ^Die Hard( \d])?$
   - ^Die Hard.+?With a Vengeance
   - Live Free or Die Hard
   - A Good Day to Die Hard
@@ -57,13 +62,13 @@ Fantastic Beasts:
   - Fantastic Beasts and Where to Find Them
   - Fantastic Beasts.+?The Crimes of Grindelwald
 Final Destination:
-  - ^Final Destination( [0-6])?$
+  - ^Final Destination( \d)?$
   - ^The Final Destination$
 Goosebumps:
   - ^Goosebumps$
   - ^Goosebumps 2.+?Haunted Halloween
 Hangover:
-  - ^The Hangover(.+?Part (I{2,3}|[2-3]))?$
+  - ^The Hangover(.+?Part (I{2,3}|\d))?$
 Happy Death Day:
   - ^Happy Death Day( 2U)?$
 Harry Potter Collection:
@@ -71,7 +76,7 @@ Harry Potter Collection:
   - Harry Potter and the (Chamber of Secrets|Prisoner of Azkaban|Goblet of Fire|Order of the Phoenix|Half.*?Blood Prince)
   - Harry Potter and the Deathly Hallows(.+?Part ([1-2]))?$
 How to Train Your Dragon:
-  - How to Your Dragon( [0-3]?)$
+  - How to Your Dragon( \d)?$
 Independence Day:
   - ^Independence Day$
   - ^Independence Day.+?Resurgence
@@ -86,13 +91,13 @@ Jason Bourne:
 John Mulaney:
   - John Mulaney.+?(The Comeback Kid|New in Town|Kid Gorgeous at Radio City)
 John Wick:
-  - John Wick(.+?Chapter [2-3])?
+  - John Wick(.+?Chapter \d)?
 Jurassic Park:
   - ^Jurassic( Park| World)(.+?(I{2,3}|[2-3]))?$
   - ^The Lost World.+?Jurassic Park
   - ^Jurassic World.+?Fallen Kingdom
 Kick-Ass:
-  - Kick-Ass( [0-2])?$
+  - Kick-Ass( \d)?$
 Kingsman:
   - Kingsman.+?(The Golden Circle|The Secret Service)
 LEGO:
@@ -102,7 +107,7 @@ LEGO:
   - ^LEGO DC.*
   - Lego Scooby-Doo.*Haunted Hollywood
 Now You See Me:
-  - Now You See Me( 2)?
+  - Now You See Me( \d)?
 Oceans Series:
   - Ocean.*?s (Eleven|Twelve|Thirteen|Eight)
 Pacific Rim:
@@ -111,17 +116,40 @@ Pacific Rim:
 Pirates of the Caribbean:
   - ^Pirates of the Caribbean.+?(The Curse of the Black Pearl|Dead Man.*?s Chest|At World.*?s End|On Stranger Tides|Dead Men Tell No Tales)
 Pitch Perfect:
-  - ^Pitch Perfect( [0-3])?$
+  - ^Pitch Perfect( \d)?$
 Planet of the Apes:
   - (Rise of|Dawn of|War for) the Planet of the Apes
 Resident Evil:
   - ^Resident Evil$
   - ^Resident Evil.+?(Apocalypse|Extinction|Afterlife|Retribution|The Final Chapter)
+Rocky:
+  - ^Rocky(( I{0,3}V?)| Balboa)?$
+  - ^Creed( I{1,3})?$
 Saw:
   - ^Saw$
   - ^Saw (I{2,3}|IV|V|VI|[2-3])?$
   - Saw.+?The Final Chapter
   - Jigsaw
+Scary Movie:
+  - ^Scary Movie( \d)?$
+Star Trek:
+  - Star Trek
+  - Star Trek Into Darkness
+  - Star Trek Beyond
+Star Wars:
+  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
+  - ^(Star Wars.+?)?The Empire Strikes Back
+  - ^(Star Wars.+?)?Return of the Jedi
+  - ^Star Wars.*?Phantom Menace
+  - ^Star Wars.*?Attack of the Clones
+  - ^Star Wars.*?Revenge of the Sith
+  - ^Star Wars.*?Force Awakens
+  - ^(Star Wars.*?)?Rogue One$
+  - ^Star Wars.*?The Last Jedi
+  - ^Solo.+?A Star Wars Story$
+  - ^Star Wars.*?The Rise of Skywalker
+  - ^The Ewok Adventure
+  - ^Ewoks.*?Battle for Endor
 Super Troopers:
   - ^Super Troopers( 2)?$
 The Amityville:
@@ -144,7 +172,7 @@ The Amityville:
   - Amityville Exorcism
   - Amityville.+?The Awakening
 The Conjuring: &the_conjuring
-  - ^The Conjuring( [0-3])?$
+  - ^The Conjuring( \d)?$
 The Conjuring Universe:
   - *annabelle
   - *the_conjuring
@@ -158,8 +186,7 @@ The Exorcist:
   - ^Exorcist.+?The Beginning$
   - Dominion.+?Prequel to the Exorcist
 The Expendables:
-  - ^The Expendables( [0-3])?$
-  - ^Legion$
+  - ^The Expendables( \d)?$
 The Fast and the Furious:
   - The Fast and the Furious
   - 2 Fast 2 Furious
@@ -168,6 +195,7 @@ The Fast and the Furious:
   - Furious 7
   - The Fate of the Furious
   - The Fast And The Furious.+?Tokyo Drift
+  - Fast & Furious Presents.+?Hobbs & Shaw
 The Hobbit: &hobbit
   - ^The Hobbit.+?(An Unexpected Journey|The Desolation Of Smaug|The Battle Of The Five Armies)$
 The Hunger Games:
@@ -175,7 +203,7 @@ The Hunger Games:
   - ^The Hunger Games.+?Catching Fire$
   - ^The Hunger Games.+?Mockingjay(.+?Part [1-2])?$
 The Incredibles:
-  - The Incredibles( [0-2])?$
+  - (The\s)?Incredibles( \d)?$
 The Land Before Time:
   - ^The Land Before Time$
   - ^The Land Before Time.*
@@ -193,7 +221,7 @@ Tolkien:
   - *lotr
   - *hobbit
 Toy Story:
-  - ^Toy Story( [0-4])?$
+  - ^Toy Story( \d)?$
 Trainspotting:
   - ^Trainspotting$
   - ^T2 Trainspotting$
@@ -201,29 +229,12 @@ Transformers:
   - ^Transformers$
   - Transformers.+?(Revenge of the Fallen|Dark of the Moon|Age of Extinction|The Last Knight)
   - ^Bumblebee$
-Rocky:
-  - ^Rocky(( I{0,3}V?)| Balboa)?$
-  - ^Creed( II)?$
-Scary Movie:
-  - ^Scary Movie( [0-5])?$
-Star Trek:
-  - Star Trek
-  - Star Trek Into Darkness
-  - Star Trek Beyond
-Star Wars:
-  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
-  - ^(Star Wars.+?)?The Empire Strikes Back
-  - ^(Star Wars.+?)?Return of the Jedi
-  - ^Star Wars.*?Phantom Menace
-  - ^Star Wars.*?Attack of the Clones
-  - ^Star Wars.*?Revenge of the Sith
-  - ^Star Wars.*?Force Awakens
-  - ^(Star Wars.*?)?Rogue One$
-  - ^Star Wars.*?The Last Jedi
-  - ^Solo.+?A Star Wars Story$
-  - ^Star Wars.*?The Rise of Skywalker
-  - ^The Ewok Adventure
-  - ^Ewoks.*?Battle for Endor
+Underworld:
+  - ^Underworld$
+  - Underworld.+?Evolution
+  - Underworld.+?Rise of the Lycans
+  - Underworld.+?Awakening
+  - Underworld.+?Blood Wars
 Wreck-It Ralph:
   - ^Wreck-It Ralph
   - ^Ralph Breaks the Internet
