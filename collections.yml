@@ -1,12 +1,141 @@
-Alien:
-  - ^Alien( 3)?$
-  - ^Aliens$
-  - ^Alien.*?(Resurrection|Convenant)$
-  - ^Prometheus
+Addams Family:
+  - ^The Addams Family$
+  - Addams Family (Values|Reunion)?$
+Alice in Wonderland:
+  - Alice in Wonderland {{2010}}
+  - Alice Through the Looking Glass
+American Pie:
+  - ^American Pie( 2)?$
+  - American (Reunion|Wedding)
+Anchorman:
+  - Anchorman.+?The Legend of Ron Burgundy
+  - Anchorman 2.+?The Legend Continues
+  - Wake Up, Ron Burgundy.+?The Lost Movie
+Annabelle: &annabelle
+  - ^Annabelle( \d)?$
+  - ^Annabelle.+?Creation
+Atlas Shrugged:
+  - Atlas Shrugged Part I{0,3}
+Back to the Future:
+  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
+Before...:
+  - ^Before (Sunrise|Sunset|Midnight)$
+Bo Burnham:
+  - Bo Burnham.+?(What\.|Make Happy|Words, Words, Words|Comedy Central Presents)
+Bridget Jones:
+  - Bridget Jones.*?s (Diary|Baby)
+  - Bridget Jones.*?The Edge of Reason
+British Gangster:
+  - Lock, Stock and Two Smoking Barrels
+  - Snatch
+  - Layer Cake
+Cars:
+  - ^Cars(\s\d)?$
+Child's Play:
+  - ^Child.*?s Play( \d)?$
+  - ^(Bride|Seed|Curse|Cult) of Chucky$
+DC Extended Universe:
+  - ^Aquaman( \d)?$
+  - ^Man of Steel
+  - ^Suicide Squad
+  - ^Batman v Superman.+?Dawn of Justice
+  - ^Justice League
+  - ^Wonder Woman.*
+  - ^Birds of Prey
+  - ^The Flash
+  - ^Shazam.*
+Despicable Me:
+  - Despicable Me( \d)?$
+  - Minions(The rise of Gru)?$
+Die Hard:
+  - ^Die Hard( \d])?$
+  - ^Die Hard.+?With a Vengeance
+  - Live Free or Die Hard
+  - A Good Day to Die Hard
+Divergent:
+  - ^Divergent$
+  - ^(The Divergent Series.*?)?(Insurgent|Allegiant)$
+Ernest: &ernest
+  - Ernest.+?(Goes to Camp|Saves Christmas|Scared Stupid|Goes to Jail|Rides Again|in the Army|Goes to Africa|Goes to School)
+  - Slam Dunk Ernest
+Fantastic Beasts:
+  - Fantastic Beasts and Where to Find Them
+  - Fantastic Beasts.+?The Crimes of Grindelwald
+Final Destination:
+  - ^Final Destination( \d)?$
+  - ^The Final Destination$
+Goosebumps:
+  - ^Goosebumps$
+  - ^Goosebumps 2.+?Haunted Halloween
+Hangover:
+  - ^The Hangover(.+?Part (I{2,3}|\d))?$
+Happy Death Day:
+  - ^Happy Death Day( 2U)?$
 Harry Potter Collection:
   - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
   - Harry Potter and the (Chamber of Secrets|Prisoner of Azkaban|Goblet of Fire|Order of the Phoenix|Half.*?Blood Prince)
   - Harry Potter and the Deathly Hallows(.+?Part ([1-2]))?$
+How to Train Your Dragon:
+  - How to Your Dragon( \d)?$
+Independence Day:
+  - ^Independence Day$
+  - ^Independence Day.+?Resurgence
+Indiana Jones:
+  - Raiders of the Lost Ark
+  - Temple of Doom
+  - The Last Crusade
+  - Kingdom of the Crystal Skull
+Jason Bourne:
+  - The Bourne (Identity|Supremacy|Ultimatum|Legacy)
+  - Jason Bourne
+John Mulaney:
+  - John Mulaney.+?(The Comeback Kid|New in Town|Kid Gorgeous at Radio City)
+John Wick:
+  - John Wick(.+?Chapter \d)?
+Jurassic Park:
+  - ^Jurassic( Park| World)(.+?(I{2,3}|[2-3]))?$
+  - ^The Lost World.+?Jurassic Park
+  - ^Jurassic World.+?Fallen Kingdom
+Kick-Ass:
+  - Kick-Ass( \d)?$
+Kingsman:
+  - Kingsman.+?(The Golden Circle|The Secret Service)
+LEGO:
+  - ^The Lego Movie$
+  - The Lego Movie 2.+?The Second Part
+  - The Lego Batman Movie
+  - ^LEGO DC.*
+  - Lego Scooby-Doo.*Haunted Hollywood
+Now You See Me:
+  - Now You See Me( \d)?
+Oceans Series:
+  - Ocean.*?s (Eleven|Twelve|Thirteen|Eight)
+Pacific Rim:
+  - ^Pacific Rim$
+  - ^Pacific Rim.+?Uprising
+Pirates of the Caribbean:
+  - ^Pirates of the Caribbean.+?(The Curse of the Black Pearl|Dead Man.*?s Chest|At World.*?s End|On Stranger Tides|Dead Men Tell No Tales)
+Pitch Perfect:
+  - ^Pitch Perfect( \d)?$
+Planet of the Apes:
+  - (Rise of|Dawn of|War for) the Planet of the Apes
+Resident Evil:
+  - ^Resident Evil$
+  - ^Resident Evil.+?(Apocalypse|Extinction|Afterlife|Retribution|The Final Chapter)
+Rocky:
+  - ^Rocky(( I{0,3}V?)| Balboa)?$
+  - ^Creed( I{1,3})?$
+Saw:
+  - ^Saw$
+  - ^Saw (I{2,3}|IV|V|VI|[2-3])?$
+  - Saw.+?The Final Chapter
+  - Jigsaw
+Scary Movie:
+  - ^Scary Movie( \d)?$
+Star Trek:
+  - Star Trek
+  - Star Trek Into Darkness
+  - Star Trek Beyond
 Star Wars:
   - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
   - ^(Star Wars.+?)?The Empire Strikes Back
@@ -19,101 +148,10 @@ Star Wars:
   - ^Star Wars.*?The Last Jedi
   - ^Solo.+?A Star Wars Story$
   - ^Star Wars.*?The Rise of Skywalker
-Indiana Jones:
-  - Raiders of the Lost Ark
-  - Temple of Doom
-  - The Last Crusade
-  - Kingdom of the Crystal Skull
-The Dark Knight:
-  - Batman Begins
-  - The Dark Knight(\sRises)?
-American Pie:
-  - ^American Pie( 2)?$
-  - American (Reunion|Wedding)
-Cars:
-  - ^Cars(\s\d)?$
-John Wick:
-  - John Wick(.+?Chapter \d)?
-Now You See Me:
-  - Now You See Me( \d)?
-Kingsman:
-  - Kingsman.+?(The Golden Circle|The Secret Service)
-Planet of the Apes:
-  - (Rise of|Dawn of|War for) the Planet of the Apes
-Three Flavours Cornetto Trilogy:
-  - ^Shaun of the Dead$
-  - ^Hot Fuzz$
-  - ^The World.?s End$
-The Lord of the Rings: &lotr
-  - ^The Lord of The Rings.+?(The Fellowship of the Ring|The Two Towers|The Return of the King)$
-The Hobbit: &hobbit
-  - ^The Hobbit.+?(An Unexpected Journey|The Desolation Of Smaug|The Battle Of The Five Armies)$
-Tolkien:
-  - *lotr
-  - *hobbit
-Back to the Future:
-  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
-Rocky:
-  - ^Rocky(( I{0,3}V?)| Balboa)?$
-  - ^Creed( I{1,3})?$
-Final Destination:
-  - ^Final Destination( \d)?$
-  - ^The Final Destination$
-John Mulaney:
-  - John Mulaney.+?(The Comeback Kid|New in Town|Kid Gorgeous at Radio City)
-Bo Burnham:
-  - Bo Burnham.+?(What\.|Make Happy|Words, Words, Words|Comedy Central Presents)
-Oceans Series:
-  - Ocean.*?s (Eleven|Twelve|Thirteen|Eight)
-Scary Movie:
-  - ^Scary Movie( \d)?$
-Die Hard:
-  - ^Die Hard( \d])?$
-  - ^Die Hard.+?With a Vengeance
-  - Live Free or Die Hard
-  - A Good Day to Die Hard
-Bridget Jones:
-  - Bridget Jones.*?s (Diary|Baby)
-  - Bridget Jones.*?The Edge of Reason
-Before...:
-  - ^Before (Sunrise|Sunset|Midnight)$
-Alice in Wonderland:
-  - Alice in Wonderland {{2010}}
-  - Alice Through the Looking Glass
-Annabelle: &annabelle
-  - ^Annabelle( \d)?$
-  - ^Annabelle.+?Creation
-The Conjuring: &the_conjuring
-  - ^The Conjuring( \d)?$
-The Conjuring Universe:
-  - *annabelle
-  - *the_conjuring
-  - ^The Nun$
-  - ^The Crooked Man$
-Child's Play:
-  - ^Child.*?s Play( \d)?$
-  - ^(Bride|Seed|Curse|Cult) of Chucky$
-Fantastic Beasts:
-  - Fantastic Beasts and Where to Find Them
-  - Fantastic Beasts.+?The Crimes of Grindelwald
-Independence Day:
-  - ^Independence Day$
-  - ^Independence Day.+?Resurgence
-Pacific Rim:
-  - ^Pacific Rim$
-  - ^Pacific Rim.+?Uprising
-Resident Evil:
-  - ^Resident Evil$
-  - ^Resident Evil.+?(Apocalypse|Extinction|Afterlife|Retribution|The Final Chapter)
-The Fast and the Furious:
-  - The Fast and the Furious
-  - 2 Fast 2 Furious
-  - Fast & Furious
-  - Fast Five
-  - Furious 7
-  - The Fate of the Furious
-  - The Fast And The Furious.+?Tokyo Drift
-  - Fast & Furious Presents.+?Hobbs & Shaw
+  - ^The Ewok Adventure
+  - ^Ewoks.*?Battle for Endor
+Super Troopers:
+  - ^Super Troopers( 2)?$
 The Amityville:
   - The Amityville Horror
   - Amityville II.+?The Possession
@@ -133,104 +171,74 @@ The Amityville:
   - Amityville.+?No Escape
   - Amityville Exorcism
   - Amityville.+?The Awakening
+The Conjuring: &the_conjuring
+  - ^The Conjuring( \d)?$
+The Conjuring Universe:
+  - *annabelle
+  - *the_conjuring
+  - ^The Nun$
+  - ^The Crooked Man$
+The Dark Knight:
+  - Batman Begins
+  - The Dark Knight(\sRises)?
 The Exorcist:
   - ^The Exorcist$
   - ^Exorcist.+?The Beginning$
   - Dominion.+?Prequel to the Exorcist
-  - ^Legion$
-Pirates of the Caribbean:
-  - ^Pirates of the Caribbean.+?(The Curse of the Black Pearl|Dead Man.*?s Chest|At World.*?s End|On Stranger Tides|Dead Men Tell No Tales)
-Hangover:
-  - ^The Hangover(.+?Part (I{2,3}|\d))?$
 The Expendables:
   - ^The Expendables( \d)?$
-Toy Story:
-  - ^Toy Story( \d)?$
-Transformers:
-  - ^Transformers$
-  - Transformers.+?(Revenge of the Fallen|Dark of the Moon|Age of Extinction|The Last Knight)
-  - ^Bumblebee$
+The Fast and the Furious:
+  - The Fast and the Furious
+  - 2 Fast 2 Furious
+  - Fast & Furious
+  - Fast Five
+  - Furious 7
+  - The Fate of the Furious
+  - The Fast And The Furious.+?Tokyo Drift
+  - Fast & Furious Presents.+?Hobbs & Shaw
+The Hobbit: &hobbit
+  - ^The Hobbit.+?(An Unexpected Journey|The Desolation Of Smaug|The Battle Of The Five Armies)$
 The Hunger Games:
   - ^The Hunger Games$
   - ^The Hunger Games.+?Catching Fire$
   - ^The Hunger Games.+?Mockingjay(.+?Part [1-2])?$
-X-Men:
-  - ^X-Men$
-  - ^X2$
-  - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
-Pitch Perfect:
-  - ^Pitch Perfect( \d)?$
-Anchorman:
-  - Anchorman.+?The Legend of Ron Burgundy
-  - Anchorman 2.+?The Legend Continues
-  - Wake Up, Ron Burgundy.+?The Lost Movie
-Despicable Me:
-  - Despicable Me( \d)?$
 The Incredibles:
   - (The\s)?Incredibles( \d)?$
-How to Train Your Dragon:
-  - How to Your Dragon( \d)?$
-Jason Bourne:
-  - The Bourne (Identity|Supremacy|Ultimatum|Legacy)
-  - Jason Bourne
-Kick-Ass:
-  - Kick-Ass( \d)?$
-British Gangster:
-  - Lock, Stock and Two Smoking Barrels
-  - Snatch
-  - Layer Cake
-LEGO:
-  - ^The Lego Movie$
-  - The Lego Movie 2.+?The Second Part
-  - The Lego Batman Movie
-Super Troopers:
-  - ^Super Troopers( 2)?$
-Trainspotting:
-  - ^Trainspotting$
-  - ^T2 Trainspotting$
-Saw:
-  - ^Saw$
-  - ^Saw (I{2,3}|IV|V|VI|[2-3])?$
-  - Saw.+?The Final Chapter
-  - Jigsaw
-Divergent:
-  - ^Divergent$
-  - ^(The Divergent Series.*?)?(Insurgent|Allegiant)$
-DC Extended Universe:
-  - ^Aquaman
-  - ^Man of Steel
-  - ^Suicide Squad
-  - ^Batman v Superman.+?Dawn of Justice
-  - ^Justice League
-  - ^Wonder Woman
-Goosebumps:
-  - ^Goosebumps$
-  - ^Goosebumps 2.+?Haunted Halloween
-Happy Death Day:
-  - ^Happy Death Day( 2U)?$
-Jurassic Park:
-  - ^Jurassic( Park| World)(.+?(I{2,3}|[2-3]))?$
-  - ^The Lost World.+?Jurassic Park
-  - ^Jurassic World.+?Fallen Kingdom
-Wreck-It Ralph:
-  - ^Wreck-It Ralph
-  - ^Ralph Breaks the Internet
+The Land Before Time:
+  - ^The Land Before Time$
+  - ^The Land Before Time.*
+The Lord of the Rings: &lotr
+  - ^The Lord of The Rings.+?(The Fellowship of the Ring|The Two Towers|The Return of the King)$
 The Matrix:
   - The Matrix
   - The Matrix Reloaded
   - The Matrix Revolutions
-Star Trek:
-  - Star Trek
-  - Star Trek Into Darkness
-  - Star Trek Beyond
+Three Flavours Cornetto Trilogy:
+  - ^Shaun of the Dead$
+  - ^Hot Fuzz$
+  - ^The World.?s End$
+Tolkien:
+  - *lotr
+  - *hobbit
+Toy Story:
+  - ^Toy Story( \d)?$
+Trainspotting:
+  - ^Trainspotting$
+  - ^T2 Trainspotting$
+Transformers:
+  - ^Transformers$
+  - Transformers.+?(Revenge of the Fallen|Dark of the Moon|Age of Extinction|The Last Knight)
+  - ^Bumblebee$
 Underworld:
   - ^Underworld$
   - Underworld.+?Evolution
   - Underworld.+?Rise of the Lycans
   - Underworld.+?Awakening
   - Underworld.+?Blood Wars
-Addams Family:
-  - ^The Addams Family$
-  - Addams Family (Values|Reunion)?$
-Atlas Shrugged:
-  - Atlas Shrugged Part I{0,3}
+Wreck-It Ralph:
+  - ^Wreck-It Ralph
+  - ^Ralph Breaks the Internet
+X-Men:
+  - ^X-Men$
+  - ^X2$
+  - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
