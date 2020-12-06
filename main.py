@@ -9,8 +9,8 @@ import yaml
 import glob, os, argparse
 
 ## Edit ##
-PLEX_URL = ''
-PLEX_TOKEN = ''
+PLEX_URL = os.getenv('PLEX_URL')
+PLEX_TOKEN = os.getenv('PLEX_TOKEN')
 
 DEBUG = os.getenv('DEBUG')
 RESET_COLOR = '\033[0m'  # reset to default text color
@@ -116,7 +116,7 @@ def read_collection(filename, collections):
 def main():
     parser = argparse.ArgumentParser(description="Automatically create Plex collections")
     parser.add_argument("-l", "--library", help="choose LIBRARY from CLI")
-    parser.add_argument("collection", nargs="*")
+    parser.add_argument("collection", nargs="*", help="Collection YAML files to process")
     args = parser.parse_args()
 
     if args.library:
