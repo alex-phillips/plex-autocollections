@@ -60,7 +60,12 @@ class Plex():
         return plexapi.utils.choose('Select server index', servers, 'name').connect()
 
     def get_server_section(self, server):
-        return server.library.section(title=PLEX_LIBRARY)
+         sections = [ _ for _ in server.library.sections() if _.type in {'movie'} ]
+         if not sections:		
+             print('No available sections.')		
+             sys.exit()		
+
+        return plexapi.utils.choose('Select section index', sections, 'title')
 
     def get_flat_media(self, section):
         # Movie sections are already flat
