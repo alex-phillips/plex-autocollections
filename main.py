@@ -137,6 +137,10 @@ def main():
     # keyword_matches = []  # unused list?
 
     for medium in plex.media:
+        if args.library or PLEX_LIBRARY:
+            plex = Plex(args.library or PLEX_LIBRARY)
+        else:
+            plex = Plex()
         for collection, movies in collections.items():
             process_movies(movies, medium, collection)
 
