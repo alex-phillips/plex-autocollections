@@ -11,6 +11,7 @@ import glob, os, argparse
 ## Edit ##
 PLEX_URL = os.getenv('PLEX_URL')
 PLEX_TOKEN = os.getenv('PLEX_TOKEN')
+PLEX_LIBRARY = os.getenv('PLEX_LIBRARY')
 
 DEBUG = os.getenv('DEBUG')
 RESET_COLOR = '\033[0m'  # reset to default text color
@@ -21,6 +22,7 @@ BLUE        = '\033[34m' # set text color to blue
 try:
     PLEX_URL = CONFIG.data['auth'].get('server_baseurl', PLEX_URL)
     PLEX_TOKEN = CONFIG.data['auth'].get('server_token', PLEX_TOKEN)
+    PLEX_LIBRARY = CONFIG.data['auth'].get('library', PLEX_LIBRARY)
 except:
     print("Failed loading in config file.")
 
@@ -58,10 +60,10 @@ class Plex():
         return plexapi.utils.choose('Select server index', servers, 'name').connect()
 
     def get_server_section(self, server):
-        sections = [ _ for _ in server.library.sections() if _.type in {'movie'} ]
-        if not sections:
-            print('No available sections.')
-            sys.exit()
+         sections = [ _ for _ in server.library.sections() if _.type in {'movie'} ]
+         if not sections:		
+             print('No available sections.')		
+             sys.exit()		
 
         return plexapi.utils.choose('Select section index', sections, 'title')
 
@@ -140,6 +142,10 @@ def main():
     # keyword_matches = []  # unused list?
 
     for medium in plex.media:
+        if args.library or PLEX_LIBRARY:
+            plex = Plex(args.library or PLEX_LIBRARY)
+        else:
+            plex = Plex()
         for collection, movies in collections.items():
             process_movies(movies, medium, collection)
 
