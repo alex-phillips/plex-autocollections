@@ -64,6 +64,8 @@ Fantastic Beasts:
 Final Destination:
   - ^Final Destination( \d)?$
   - ^The Final Destination$
+Frankenstein:
+  - Frankenstein
 Goosebumps:
   - ^Goosebumps$
   - ^Goosebumps 2.+?Haunted Halloween
