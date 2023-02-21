@@ -48,7 +48,7 @@ Despicable Me:
   - Despicable Me( \d)?$
   - Minions(The rise of Gru)?$
 Die Hard:
-  - ^Die Hard( \d])?$
+  - ^Die Hard( \d)?$
   - ^Die Hard.+?With a Vengeance
   - Live Free or Die Hard
   - A Good Day to Die Hard
