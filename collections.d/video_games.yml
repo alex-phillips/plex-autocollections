@@ -1,0 +1,43 @@
+Resident Evil: &resident_evil
+  - ^Resident Evil$
+  - ^Resident Evil.+?(Apocalypse|Extinction|Afterlife|Retribution|The Final Chapter|Welcome to Raccoon City)
+Mortal Kombat: &mortal_kombat
+  - ^Mortal Kombat(. Annihilation)?$
+Street Fighter: &street_fighter
+  - ^Street Fighter
+  - ^The Legend of Chun Li$
+Tomb Raider: &tomb_raider
+  - Tomb Raider
+Video Games:
+  - ^Angry Video Game Nerd. The Movie$
+  - ^Black Heaven$
+  - ^Doom$
+  - ^Doom. Annihilation$
+  - ^Double Dragon$
+  - ^Free Guy$
+  - ^Game Box 1.0$
+  - ^Game Night$
+  - ^Gamer$
+  - ^The Games Maker$
+  - ^Grandma's Boy$
+  - ^Hero Mode$
+  - ^Joysticks$
+  - ^The Legend of Zelda
+  - *mortal_kombat
+  - ^Need for Speed$
+  - ^Pixels$
+  - ^Postal$
+  - ^Prince of Persia. The Sands of Time$
+  - ^Rampage$
+  - ^Ready Player One$
+  - *resident_evil
+  - ^Silent Hill
+  - ^Sonic the Hedgehog
+  - *street_fighter
+  - ^Super Mario Bros.$
+  - ^Teenage Mutant Ninja Turtles
+  - *tomb_raider
+  - ^Tron$
+  - ^Tron. Legacy$
+  - ^WarGames$
+  - ^The Wizard$

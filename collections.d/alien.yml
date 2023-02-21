@@ -1,0 +1,7 @@
+Alien:
+  - ^Alien³
+  - ^Alien( 3)?$
+  - ^Aliens$
+  - ^Alien.*?(Resurrection|Covenant)$
+  - ^Prometheus$
+  - ^(AVP|Alien).*Predator

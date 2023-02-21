@@ -1,0 +1,13 @@
+The Exorcist: &the_exorcist
+  - ^(The )?Exorcist.?(III)?$
+  - ^Exorcist II
+  - ^Exorcist.+?The Beginning$
+  - ^Dominion$
+Exorcisms & Possessions:
+  - Exorcism
+  - Possession
+  - ^The Autopsy of Jane Doe$
+  - *the_exorcist
+  - ^The Lazarus Effect$
+  - ^Prey for the Devil$
+  - ^The Rite$

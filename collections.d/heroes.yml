@@ -1,0 +1,85 @@
+Ant-Man: &antman
+  - ^Ant-Man$
+  - Ant-Man and the Wasp
+The Avengers: &avengers
+  - ^The Avengers$
+  - ^Avengers.+?(Age of Ultron|Infinity War|Endgame)
+Batman: &batman
+  - ^Batman
+  - ^Joker$
+  - The Dark Knight
+  - The Batman
+Captain America: &captain_america
+  - Captain America(.+?The First Avenger)?
+  - Captain America.+?Winter Soldier
+  - Captain America.+?Civil War
+Deadpool: &deadpool
+  - ^Deadpool( [0-3])?$
+  - ^Once Upon a Deadpool
+  - ^X-Force
+Fantastic Four: &fantastic_four
+ - Fantastic Four
+Guardians of the Galaxy: &guardians_of_the_galaxy
+  - ^Guardians of the Galaxy(( Vol\.)? [0-3])?$
+Iron Man: &iron_man
+  - ^Iron Man( [0-3])?$
+Punisher: &punisher
+  - Punisher ?(War Zone)?
+Spider-Man: &spider_man
+  - ^Spider.*?man.+?(Homecoming|Far From Home|No Way Home)$
+  - Spider-Man ?\d?
+  - The Amazing Spider-Man ?\d?
+Superman: &superman
+  - ^Superman
+  - ^Man of Steel$
+  - Batman v Superman. Dawn of Justice
+  - ^Supergirl$
+Thor: &thor
+  - ^Thor$
+  - Thor.*?(The Dark World|Ragnarok|Love and Thunder)
+X-Men:
+  - ^X-Men$
+  - ^X2.+?(X-Men United)
+  - X-Men.+?(Apocalypse|Days of Future Past|First Class|The Last Stand|Days of Future Past)
+  - X-Men Origins.+Wolverine
+  - ^The Wolverine$
+  - ^Logan$
+  - ^X-Men. Dark Phoenix$
+  - *deadpool
+  - ^The New Mutants$
+Heroes:
+  - *antman
+  - Aquaman
+  - *avengers
+  - *batman
+  - ^Birds of Prey$
+  - Black Panther
+  - ^Black Widow$
+  - *captain_america
+  - ^Captain Marvel
+  - Catwoman
+  - *deadpool
+  - ^Doctor Strange
+  - *fantastic_four
+  - Green Lantern
+  - *guardians_of_the_galaxy
+  - ^Hancock$
+  - ^Hellboy
+  - ^Hulk$
+  - The Incredible Hulk
+  - *iron_man
+  - Justice League$
+  - ^Kick-Ass
+  - *punisher
+  - Shang-Chi and the Legend of the Ten Rings
+  - Shazam!
+  - Spawn
+  - *spider_man
+  - ^Suicide Squad$
+  - ^The Suicide Squad$
+  - *superman
+  - *thor
+  - V for Vendetta
+  - ^Venom
+  - ^Watchmen$
+  - ^Wonder Woman
