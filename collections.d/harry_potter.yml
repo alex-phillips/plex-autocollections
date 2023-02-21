@@ -1,0 +1,5 @@
+Harry Potter Collection:
+  - Harry Potter and the (Sorcerer.*?s|Philosopher.*?s) Stone
+  - Harry Potter and the (Chamber of Secrets|Prisoner of Azkaban|Goblet of Fire|Order of the Phoenix|Half.*?Blood Prince)
+  - Harry Potter and the Deathly Hallows(.+?Part ([1-2]))?$
+  - Harry Potter 20th Anniversary

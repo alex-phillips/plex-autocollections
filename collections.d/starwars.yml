@@ -1,0 +1,14 @@
+Star Wars:
+  - ^Star Wars.*?Phantom Menace
+  - ^Star Wars.*?Attack of the Clones
+  - ^Star Wars.*?Revenge of the Sith
+  - ^Star Wars(.+?A New Hope|.+?Episode (?:4|IV))?$
+  - ^(Star Wars.+?)?The Empire Strikes Back
+  - ^(Star Wars.+?)?Return of the Jedi
+  - ^Star Wars.*?Force Awakens
+  - ^Star Wars.*?The Last Jedi
+  - ^Star Wars.*?The Rise of Skywalker
+  - ^Solo.+?A Star Wars Story$
+  - ^Rogue One. A Star Wars Story$
+  - ^The Ewok Adventure
+  - ^Ewoks.*?Battle for Endor

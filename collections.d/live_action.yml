@@ -1,0 +1,40 @@
+The Addams Family: &the_addams_family
+  - ^The Addams Family$
+  - Addams Family (Values|Reunion)?$
+Alice in Wonderland: &alice_in_wonderland
+  - Alice in Wonderland
+  - Alice Through the Looking Glass
+Teenage Mutant Ninja Turtles: &teenage_mutant_ninja_turtles
+  - ^Teenage Mutant Ninja Turtles
+Live Action:
+  - *the_addams_family
+  - ^Aladdin$
+  - *alice_in_wonderland
+  - ^Beauty and the Beast$
+  - ^Christopher Robin$
+  - ^Cinderella$
+  - ^Cruella$
+  - ^Dumbo$
+  - ^The Flintstones
+  - ^Hook$
+  - ^The Jungle Book$
+  - ^Lady and the Tramp$
+  - ^The Legend of Tarzan$
+  - ^The Legend of Zelda
+  - ^The Lion King$
+  - ^The Little Mermaid
+  - ^Looney Tunes. Back in Action$
+  - ^Maleficent
+  - ^(Son of )?(t|T)he Mask$
+  - ^Mulan$
+  - ^Pete's Dragon$
+  - ^Peter Pan$
+  - ^Pinocchio$
+  - ^Popeye$
+  - ^The Sorcerer's Apprentice$
+  - *teenage_mutant_ninja_turtles
+  - ^Space Jam
+  - ^Super Mario Bros.$
+  - ^Tom & Jerry$
+  - ^Who Framed Roger Rabbit$
+  - ^Woody Woodpecker$

@@ -1,0 +1,26 @@
+Time Travel:
+  - ^2067$
+  - ^Army of Darkness$
+  - ^Arrival$
+  - ^Avengers. Endgame$
+  - ^Back to the Future(.+?Part (I{2,3}|[2-3]))?$
+  - ^Doctor Strange$
+  - ^Donnie Darko$
+  - ^Edge of Tomorrow$
+  - ^Groundhog Day$
+  - ^Happy Death Day( 2U)?$
+  - ^Harry Potter and the Prisoner of Azkaban$
+  - ^O Homem do Futuro$
+  - ^Looper$
+  - ^Planet of the Apes$ {{1968}}
+  - ^Predestination$
+  - ^Primer$
+  - ^Source Code$
+  - ^Terminator 2. Judgment Day$
+  - ^Time After Time$
+  - ^Time Bandits$
+  - ^The Time Machine$
+  - ^Timecop$
+  - ^Timecrafters. The Treasure of Pirate's Cove$
+  - ^Timecrimes$
+  - ^Timerider. The Adventure of Lyle Swann$
